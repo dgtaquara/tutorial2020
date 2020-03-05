@@ -1,4 +1,4 @@
-# O que acontece quando alguém solicita um site do seu servidor?
+# o-que-acontece-quando-alguem-solicita-um-site-do-seu-servidor
 
 Quando chega uma requisição para o servidor web ela é passada para o Django que tenta descobrir do que ela se trata.
 

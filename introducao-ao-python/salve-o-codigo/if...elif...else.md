@@ -1,7 +1,5 @@
 # if...elif...else
 
-
-
 Muitas coisas no código só podem ser executadas se determinadas condições forem atendidas. É por isso que o Python tem alguma coisa chamada declaração **if**.
 
 Substitua o código no arquivo **python\_intro.py** para isto:

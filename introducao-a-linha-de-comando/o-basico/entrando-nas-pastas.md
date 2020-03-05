@@ -1,4 +1,4 @@
-# Entrando nas pastas
+# entrando-nas-pastas
 
 Para entrar na pasta, digite o seguinte comando:
 

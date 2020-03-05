@@ -1,4 +1,4 @@
-# Porque precisamos de um editor de código?
+# porque-precisamos-de-um-editor-de-codigo
 
 Você deve estar se perguntando porque precisamos de um editor de código especial em vez de usar algo como Word ou Bloco de Notas.
 

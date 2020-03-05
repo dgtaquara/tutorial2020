@@ -1,4 +1,4 @@
-# Modelo de lista de post de exibição
+# modelo-de-lista-de-post-de-exibicao
 
 No capítulo anterior, nós fornecemos ao nosso template uma lista de postagens e a variável posts. Agora vamos exibir em nosso HTML.
 
@@ -55,10 +55,4 @@ Parabéns! Agora vá em frente e tente adicionar um novo post em seu Django admi
 Funciona como mágica? Estamos orgulhosos! Afaste-se do seu computador um pouco, você ganhou uma pausa. :\)
 
 ![Figura 13.4](https://tutorial.djangogirls.org/pt/django_templates/images/donut.png)
-
-  
-
-
-  
-
 

@@ -1,7 +1,5 @@
 # blog.urls
 
-
-
 Agora crie um novo arquivo vazio dentro do diretório `blog` chamado `urls.py`, feito isso adicione as duas linhas abaixo:
 
 ```text

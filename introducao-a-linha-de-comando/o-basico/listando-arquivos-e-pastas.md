@@ -1,4 +1,4 @@
-# Listando arquivos e pastas
+# listando-arquivos-e-pastas
 
 Digite o seguinte comando:
 

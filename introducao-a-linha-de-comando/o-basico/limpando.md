@@ -1,4 +1,4 @@
-# Limpando
+# limpando
 
 Não queremos deixar uma bagunça, então vamos remover tudo o que fizemos até agora.
 

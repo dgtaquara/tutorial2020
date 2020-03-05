@@ -1,4 +1,4 @@
-# Template
+# template
 
 Precisamos criar um arquivo `post_edit.html` na pasta `blog/templates/blog`. Pra fazer o formulário funcionar precisamos de muitas coisas:
 

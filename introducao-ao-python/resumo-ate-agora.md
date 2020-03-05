@@ -1,4 +1,4 @@
-# Resumo até agora
+# resumo-ate-agora
 
 Incrível! Agora você sabe muito sobre programação. Nesta última parte você aprendeu sobre:
 

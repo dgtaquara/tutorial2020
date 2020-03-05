@@ -1,4 +1,4 @@
-# Criando uma aplicação
+# criando-uma-aplicacao
 
 Para manter tudo arrumado vamos criar um aplicativo separado dentro do nosso projeto. É muito bom ter tudo organizado desde o início. Para criar um aplicativo precisamos executar o seguinte comando no console:
 

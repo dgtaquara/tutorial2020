@@ -1,4 +1,4 @@
-# Fazendo comparações
+# fazendo-comparacoes
 
 Grande parte da programação consiste em comparar coisas. O que é mais fácil de comparar? Números, é claro. Vamos ver como isso funciona:
 

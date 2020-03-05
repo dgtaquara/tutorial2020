@@ -1,4 +1,4 @@
-# Arquivos estáticos no Django
+# arquivos-estaticos-no-django
 
 Finalmente nós iremos ver mais de perto nessas coisas que chamamos de **arquivos estáticos**. Arquivos estáticos são todas as suas imagens e arquivos CSS -- arquivos que não são dinâmicos, então seu conteúdo não depende do contexto da requisição e será o mesmo para todos os usuários.
 

@@ -1,6 +1,6 @@
-# Instalação do Django
+# instalacao-do-django
 
-### Ambiente virtual <a id="ambiente-virtual"></a>
+## Ambiente virtual <a id="ambiente-virtual"></a>
 
 Vamos fazer um virtualenv chamado `myvenv`. O formato geral desse comando é:
 
@@ -12,7 +12,7 @@ ou
 $ python -m venv myvenv
 ```
 
-### Trabalhando com o virtualenv <a id="trabalhando-com-o-virtualenv"></a>
+## Trabalhando com o virtualenv <a id="trabalhando-com-o-virtualenv"></a>
 
 O comando acima criará um diretório chamado `myvenv` \(ou qualquer que seja o nome que você escolheu\) que contém o nosso ambiente virtual \(basicamente um conjunto de diretórios e arquivos\).
 
@@ -34,15 +34,13 @@ Lembre-se de substituir `myvenv` pelo nome que você escolheu para o `virtualenv
 > $ . myvenv/bin/activate
 > ```
 
-
-
 Você vai saber que tem um `virtualenv` funcionando quando vir que a linha de comando no seu console tem o prefixo `(myvenv)`.
 
 Ao trabalhar em de um ambiente virtual, o comando `python` irá automaticamente se referir à versão correta para que você possa digitar `python` em vez de `python3`.
 
 Pronto, já temos todas as dependências importantes no lugar. Finalmente podemos instalar o Django!
 
-### Instalando o Django <a id="instalando-o-django"></a>
+## Instalando o Django <a id="instalando-o-django"></a>
 
 Agora que você tem seu `virtualenv` ativo, pode instalar o Django\(Siga corretamente estes passos!!\).
 
@@ -54,7 +52,7 @@ command-line
 (myvenv) ~$ python -m pip install --upgrade pip
 ```
 
-#### Instalando pacotes com requisitos <a id="instalando-pacotes-com-requisitos"></a>
+### Instalando pacotes com requisitos <a id="instalando-pacotes-com-requisitos"></a>
 
 O arquivo "requirements.txt" guarda as dependências que serão instaladas utilizando o `pip install`:
 
@@ -75,7 +73,7 @@ Django~=2.2.4
 
 Agora, execute:
 
-`pip install -r requirements.txt` 
+`pip install -r requirements.txt`
 
 Assim vamos instalar o Django!!
 
@@ -89,7 +87,7 @@ Installing collected packages: Django
 Successfully installed Django-2.2.4
 ```
 
-### Importante!
+## Importante!
 
 No terminal, rode o comando abaixo \(\*\*não esqueça de adicionar o ponto `.` no final!!
 
@@ -105,7 +103,7 @@ command-line\(terminal\)
 
 É isto! Você agora \(finalmente\) está pronta para criar uma aplicação Django!
 
-### OBSERVAÇÃO:
+## OBSERVAÇÃO:
 
 Se o arquivo `main.py` ainda esta dentro do diretório\(pasta\) `djangoGirls`, ele pode ser deletado neste momento. Pode clicar com o botão direito em cima do arquivo e selecionar a opção delete
 

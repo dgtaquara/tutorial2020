@@ -1,6 +1,4 @@
-# Criando um objeto
-
-
+# criando-um-objeto
 
 É assim que você cria um objeto Post no banco de dados:
 

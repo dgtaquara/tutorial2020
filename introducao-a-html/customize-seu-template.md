@@ -1,4 +1,4 @@
-# Customize seu template
+# customize-seu-template
 
 Agora você pode se divertir um pouco tentando customizar o seu template! Aqui estão algumas tags úteis para isso:
 
@@ -51,6 +51,4 @@ Isso nos dá o seguinte efeito:
 Uhuu! Mas, até agora, nosso template mostra exatamente **sempre a mesma informação** - sendo que, anteriormente, nós falávamos sobre templates como uma maneira para exibir informações **diferentes** em um **mesmo formato**.
 
 O que nós realmente queremos fazer é exibir postagens reais que foram adicionadas no Django admin - e isso é o que faremos em seguida.
-
-
 

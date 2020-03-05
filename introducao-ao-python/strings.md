@@ -1,4 +1,4 @@
-# Strings
+# strings
 
 Que tal o seu nome? Digite seu primeiro nome entre aspas, desse jeito:
 
@@ -30,7 +30,7 @@ Se você precisa colocar uma apóstrofe dentro de sua string, existem duas manei
 "Foi a gota d'água"
 ```
 
-ou escapando apóstrofo com uma barra invertida \(  \):
+ou escapando apóstrofo com uma barra invertida \( \):
 
 ```text
 >>> 'Foi a gota d\'água'

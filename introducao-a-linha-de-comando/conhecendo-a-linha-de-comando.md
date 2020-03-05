@@ -1,4 +1,4 @@
-# Conhecendo a linha de comando
+# conhecendo-a-linha-de-comando
 
 Para começar alguns experimentos, precisamos acessar a linha de comando primeiro.
 

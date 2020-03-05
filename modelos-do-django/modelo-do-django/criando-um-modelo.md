@@ -1,4 +1,4 @@
-# Criando um modelo
+# criando-um-modelo
 
 No arquivo `blog/models.py` definimos todos os objetos chamados `Modelos` - este é um lugar em que vamos definir nossa postagem do blog.
 

@@ -1,4 +1,4 @@
-# O que são tags de template
+# o-que-sao-tags-de-template
 
 Como pode ver, você não pode colocar código Python no HTML, porque os navegadores não irão entender. Eles apenas conhecem HTML. Nós sabemos que HTML é bastante estático, enquanto Python é muito mais dinâmico.
 

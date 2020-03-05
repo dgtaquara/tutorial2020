@@ -1,4 +1,4 @@
-# blog/views.py
+# blog-views.py
 
 OK, vamos abrir o arquivo e ver o que tem nele:
 

@@ -1,6 +1,6 @@
-# Criando uma pasta
+# criando-uma-pasta
 
-Que tal criar um diretório\(pasta\) chamado  **minhapasta**  na sua máquina remoto? Você pode fazer assim:
+Que tal criar um diretório\(pasta\) chamado **minhapasta** na sua máquina remoto? Você pode fazer assim:
 
 ```text
 $ mkdir minhapasta

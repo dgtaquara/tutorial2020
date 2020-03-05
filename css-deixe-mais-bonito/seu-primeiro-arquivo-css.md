@@ -1,6 +1,4 @@
-# Seu primeiro arquivo CSS!
-
-
+# seu-primeiro-arquivo-css
 
 Vamos criar um arquivo CSS agora, para adicionar seu próprio estilo para sua página da web. Crie um novo diretório chamado `css` dentro de seu diretório `static`. Em seguida, crie um novo arquivo chamado `blog.css` dentro do diretório `css`. Pronto?
 

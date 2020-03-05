@@ -1,4 +1,4 @@
-# Pasta atual
+# pasta-atual
 
 Seria legal saber em que pasta estamos agora, certo? Vamos ver. Digite o seguinte comando seguido de um enter:
 

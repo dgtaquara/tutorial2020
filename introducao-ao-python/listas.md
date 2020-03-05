@@ -1,4 +1,4 @@
-# Listas
+# listas
 
 Além de strings e inteiros, o Python tem todos os tipos diferentes de objetos. Vamos apresentar um chamado **lista**. Listas são exatamente o que você acha que elas são: elas são objetos que são listas de outros objetos :\)
 

@@ -1,4 +1,4 @@
-# Validação de formulários
+# validacao-de-formularios
 
 Agora, nós lhe mostraremos como os formulários são legais. A postagem do blog precisa ter os campos `title` e `text`. Em nosso modelo `Post` não dissemos \(em oposição a `published_date`\) que esses campos não são necessários, então o Django, por padrão, fica na expectativa que estejam definidos.
 

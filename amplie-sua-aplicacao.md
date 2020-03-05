@@ -1,4 +1,4 @@
-# Amplie sua aplicação
+# amplie-sua-aplicacao
 
 Já concluímos todos os passos necessários para a criação do nosso site: sabemos como criar um modelo, uma url, uma view e um template. Também sabemos como melhorar a aparência do nosso website.
 
@@ -50,7 +50,7 @@ Agora quando formos para sua página inicial, teremos um erro \(como esperado, j
 
 Vamos criar a URL em `urls.py` para a nossa _view_ `post_detail`!
 
-Nós queremos que nosso primeiro detalhe de postagem seja exibido através dessa **URL**: http://&lt;&gt;/post/1/
+Nós queremos que nosso primeiro detalhe de postagem seja exibido através dessa **URL**: [http://&lt;&gt;/post/1/](http://<>/post/1/)
 
 Vamos criar uma URL no arquivo `blog/urls.py` para direcionar o Django para uma _view_ de nome `post_detail`, que irá exibir uma postagem de blog completa. Adicione a linha `path(r'^post/(?P<pk>\d+)/$', views.post_detail, name='post_detail'),` ao arquivo `blog/urls.py`. O arquivo deve ficar dessa forma:
 
@@ -93,8 +93,6 @@ Mas este código tem um problema. Se não houver nenhum `Post` com a `chave prim
 ![erro NoReverseMatch](https://tutorial.djangogirls.org/pt/extend_your_application/images/no_reverse_match2.png)
 
 Não queremos isso! Mas, claro, o Django vem com algo que vai lidar com isso para nós: `get_object_or_404`. Caso não haja nenhum `Post` com o `pk` informado, ele exibirá uma página muito mais agradável \(chamada `Page Not Found 404` - página não encontrada\).
-
-![](.gitbook/assets/image%20%281%29.png)
 
 A boa notícia é que você realmente pode criar sua própria página de `Page not found` e torná-la tão bonita quanto você quiser. Mas isso não é super importante agora, então nós vamos pular essa parte.
 
@@ -148,7 +146,7 @@ Ok, podemos atualizar nossa página e ver se o `TemplateDoesNotExist`já se foi.
 
 Yay! Funciona!
 
-## Hora do Deploy!  <a id="hora-do-deploy"></a>
+## Hora do Deploy! <a id="hora-do-deploy"></a>
 
 _Somente se você criou uma conta no pythonanywhere!!_
 

@@ -1,4 +1,4 @@
-# Todos os objetos
+# todos-os-objetos
 
 Antes, vamos tentar mostrar todas as nossas postagens. Podemos fazer isso com o seguinte comando:
 

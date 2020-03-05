@@ -1,4 +1,4 @@
-# Sua primeira URL Django
+# sua-primeira-url-django
 
 É hora de criar nossa primeira URL! Queremos que nossa página inicial do nosso blog e exibir uma lista de posts.
 

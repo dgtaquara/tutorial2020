@@ -1,4 +1,4 @@
-# Erros
+# erros
 
 Vamos tentar algo novo. Podemos obter o tamanho de um número da mesma forma que podemos encontrar o tamanho do nosso nome? Digite `len(304023)` e pressione Enter:
 

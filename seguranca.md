@@ -1,4 +1,4 @@
-# Segurança
+# seguranca
 
 Ser capaz de criar novas postagens apenas clicando em um link é incrível! Mas agora, qualquer um que visitar nosso site será capaz de criar uma nova postagem no blog, e isso, provavelmente não é algo que você quer. Vamos fazer com que o botão apareça apenas para você e mais ninguém.
 

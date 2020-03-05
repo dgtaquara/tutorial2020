@@ -5,7 +5,7 @@ description: >-
   no django-marcador tutorial licenciado sobre Creative
 ---
 
-# Seu primeiro projeto Django!
+# seu-primeiro-projeto-django
 
 Nós vamos criar um blog simples!
 
@@ -13,13 +13,13 @@ O primeiro passo é iniciar um novo projeto Django. Basicamente, isso significa 
 
 Os nomes de alguns arquivos e diretórios são muito importantes para o Django. Você não deve renomear os arquivos que estamos prestes a criar. Mover para um lugar diferente também não é uma boa idéia. O Django precisa manter uma certa estrutura para conseguir encontrar algumas coisas importantes.
 
-> Lembre-se de rodar tudo no virtualenv. Se você não vê um prefixo `(myvenv)` em seu console, é necessário ativar o virtualenv. Nós explicamos como fazer isso no capítulo **Instalação do Django** na parte **Ambiente Virtual**. Digitar 
+> Lembre-se de rodar tudo no virtualenv. Se você não vê um prefixo `(myvenv)` em seu console, é necessário ativar o virtualenv. Nós explicamos como fazer isso no capítulo **Instalação do Django** na parte **Ambiente Virtual**. Digitar
 >
 > > ```text
 > > . myvenv/bin/activate
 > > ```
 >
->  no prompt de comando na pasta 'djangoGirls' no codenvy.
+> no prompt de comando na pasta 'djangoGirls' no codenvy.
 
 `django-admin` é um script que criará os diretórios e arquivos para você. Agora, você deve ter uma estrutura de diretório parecida com isso:
 
@@ -44,7 +44,7 @@ Lembra de quando falamos sobre um carteiro verificando onde entregar uma carta? 
 
 Vamos ignorar os outros arquivos por enquanto pois não vamos modificá-los. Só precisamos lembrar de não excluí-los por acidentalmente!
 
-### Mudando as configurações <a id="mudando-as-configura&#xE7;&#xF5;es"></a>
+## Mudando as configurações <a id="mudando-as-configura&#xE7;&#xF5;es"></a>
 
 Vamos fazer algumas alterações no `mysite/settings.py`. Abra o arquivo no codenvy.
 
@@ -87,7 +87,7 @@ mysite/settings.py
 ALLOWED_HOSTS = ['127.0.0.1', '.codenvy.io']
 ```
 
-### Configurando um banco de dados <a id="configurando-um-banco-de-dados"></a>
+## Configurando um banco de dados <a id="configurando-um-banco-de-dados"></a>
 
 Existem vários software de banco de dados diferentes que podem armazenar dados para o seu site. Nós vamos usar o padrão do Django, o `sqlite3`.
 
@@ -104,15 +104,13 @@ DATABASES = {
 }
 ```
 
-Para criar um banco de dados para o nosso blog, vamos executar o seguinte comando no console. 
+Para criar um banco de dados para o nosso blog, vamos executar o seguinte comando no console.
 
-Digite: 
+Digite:
 
 ```text
 (myvenv) ~/djangogirls$ python manage.py migrate
 ```
-
- 
 
 precisamos estar no diretório que contém o arquivo `manage.py` `djangogirls`. Se isso der certo, você deve ver algo assim:
 
@@ -142,7 +140,7 @@ Running migrations:
 
 Pronto! Hora de iniciar o servidor web e ver se nosso site está funcionando!
 
-### Iniciando o servidor web <a id="iniciando-o-servidor-web"></a>
+## Iniciando o servidor web <a id="iniciando-o-servidor-web"></a>
 
 Você precisa estar no diretório que contém o arquivo `manage.py` \(o diretório `djangogirls`\). No console, nós podemos iniciar o servidor web executando o `python manage.py runserver`:
 
@@ -154,7 +152,7 @@ command-line
 
 Agora você precisa checar se o o seu site está funcionando!
 
-Digite o comando abaixo: 
+Digite o comando abaixo:
 
 ```text
 (myvenv) ~/djangogirls$ python manage.py runserver 0.0.0.0:8080
@@ -173,8 +171,6 @@ Seu site está no ar! Mas… como fazer para acessá-lo?
 Precisamos buscar a url do Codenvy. Para isso, clique em Workspaces, no lado esquerdo da tela:
 
 ![](https://lh6.googleusercontent.com/3gax6B1eDEj8IphWFEBexXSl8UqW7oH4wMWfFYXwtrszrkPkS6u6lffGj_GbuCMmv3UfPP7am6GDJbYB_e5H2PLlmlBygfBo7NFyAItJuftXfjrneO6mxbjeEuRjgl0nwTetWdZC)
-
-
 
 ![](https://lh3.googleusercontent.com/v7SN2m5DLQ_xmC8E_ztKcALb6ZVJ5bGFuGsFHatJTcr9Bqyewgy0FybDX66c-nfYaniN-ohNvbPqAvpPdPGoqaKUFqtO8_nvz9-d7UFyP6pCLgKSNfDwt9fHbhLOR94IHqolGRQo)
 

@@ -1,4 +1,4 @@
-# E se não?
+# e-se-nao
 
 Nos exemplos anteriores, o código foi executado somente quando as condições eram verdade. Mas o Python também tem instruções `elif` e `else`:
 

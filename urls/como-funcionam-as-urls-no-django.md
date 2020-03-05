@@ -1,4 +1,4 @@
-# Como funcionam as URLs no Django?
+# como-funcionam-as-urls-no-django
 
 Vamos abrir o arquivo `djangoGirls/urls.py`, ele deve ser alterado para ficar assim:
 

@@ -1,4 +1,4 @@
-# Formulários
+# formularios
 
 Por último, queremos uma forma legal de adicionar e editar as postagens do nosso blog. A `ferramenta de administração` do Django é legal, mas ela é um pouco difícil de customizar e de deixar mais bonita. Se usarmos `formulários` teremos controle absoluto sobre nossa interface - podemos fazer qualquer coisa que imaginarmos!
 
@@ -54,6 +54,6 @@ blog/templates/blog/base.html
 {% load staticfiles %}<html>    <head>        <title>Blog do AfroPython</title>        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">        <link rel="stylesheet" href="{% static 'css/blog.css' %}">    </head>    <body>        <div class="cabecalho-pagina">            <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>            <h1><a href="/">Blog do AfroPython</a></h1>        </div>        <div class="content container">            <div class="row">                <div class="col-md-8">                    {% block content %}                    {% endblock %}                </div>            </div>        </div>    </body></html>
 ```
 
-Depois de salvar e recarregar sua página, você verá um erro familiar: `NoReverseMatch`, certo?[  
+Depois de salvar e recarregar sua página, você verá um erro familiar: `NoReverseMatch`, certo?[    
 ](https://afropython.gitbook.io/tutorial/amplie_sua_aplicacao)
 
