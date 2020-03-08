@@ -1,4 +1,4 @@
-# dicionarios
+# Dicionários
 
 Um dicionário é semelhante a uma lista, mas você pode acessar valores através de uma chave em vez de um índice. Uma chave pode ser qualquer string ou número. O comando para definir um dicionário vazio é:
 

@@ -1,4 +1,4 @@
-# strings
+# Strings
 
 Que tal o seu nome? Digite seu primeiro nome entre aspas, desse jeito:
 
