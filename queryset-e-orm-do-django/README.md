@@ -1,2 +1,2 @@
-# queryset-e-orm-do-django
+# QuerySet e ORM do Django
 

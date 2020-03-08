@@ -1,6 +1,6 @@
-# o-que-vem-depois
+# O que vem depois?
 
-Parabéns! Você é **demais**. Estamos orgulhosas e orgulhosos! &lt;3
+Parabéns! Você é **demais**. Estamos orgulhosas! &lt;3
 
 ## O que fazer agora?
 

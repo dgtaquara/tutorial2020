@@ -1,4 +1,4 @@
-# formularios
+# Formulários
 
 Por último, queremos uma forma legal de adicionar e editar as postagens do nosso blog. A `ferramenta de administração` do Django é legal, mas ela é um pouco difícil de customizar e de deixar mais bonita. Se usarmos `formulários` teremos controle absoluto sobre nossa interface - podemos fazer qualquer coisa que imaginarmos!
 

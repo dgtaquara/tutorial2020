@@ -1,2 +1,2 @@
-# django-o-que-e
+# Django, o que é?
 

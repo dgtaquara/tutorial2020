@@ -68,8 +68,8 @@ Vamos ver se funciona. Vá para o página `http://<<sua_url>>/post/new/`, adicio
 
 Isso é incrível!
 
-> Como nós recentemente usamos a interface de administração do Django, o sistema ainda pensa que nós estamos "logados". Existem algumas situações que poderiam nos levar a estar "deslogados" \(fechando o browser, reiniciando o banco de dados, etc.\). Se, durante a criação de uma postagem, você perceber que está recebendo erros referentes a falta de um usuário "logado", vá para a página de administração http://&lt;&gt;/admin e faça o login novamente. Isso resolverá o problema temporariamente.
+> Como nós recentemente usamos a interface de administração do Django, o sistema ainda pensa que nós estamos "logados". Existem algumas situações que poderiam nos levar a estar "deslogados" \(fechando o browser, reiniciando o banco de dados, etc.\). Se, durante a criação de uma postagem, você perceber que está recebendo erros referentes a falta de um usuário "logado", vá para a página de administração [http://&lt;&gt;/admin](http://<>/admin) e faça o login novamente. Isso resolverá o problema temporariamente.
 
-[  
+[    
 ](https://afropython.gitbook.io/tutorial/template)
 

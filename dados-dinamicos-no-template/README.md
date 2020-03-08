@@ -1,2 +1,2 @@
-# dados-dinamicos-no-template
+# Dados dinâmicos no template
 

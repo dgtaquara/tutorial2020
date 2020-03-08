@@ -1,4 +1,4 @@
-# editando-o-formulario
+# Editando o formulário
 
 Agora já sabemos como adicionar um novo formulário. Mas e se quisermos editar um já existente? É muito semelhante ao que fizemos. Vamos criar algumas coisas importantes rapidamente \(se você não entender alguma coisa - você deve perguntar a seu treinador ou veja os capítulos anteriores, já cobrimos todas essas etapas anteriormente\).
 

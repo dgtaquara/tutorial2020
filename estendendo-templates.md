@@ -1,4 +1,4 @@
-# estendendo-templates
+# Estendendo templates
 
 Outra coisa boa que o Django tem pra você é o **template extending**\(Extensão de template em português\). O que isso significa? Isso significa que você pode usar as mesmas partes do seu HTML em diferentes páginas do seu site.
 

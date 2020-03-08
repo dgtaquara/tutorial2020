@@ -1,4 +1,4 @@
-# amplie-sua-aplicacao
+# Amplie sua aplicação
 
 Já concluímos todos os passos necessários para a criação do nosso site: sabemos como criar um modelo, uma url, uma view e um template. Também sabemos como melhorar a aparência do nosso website.
 

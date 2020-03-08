@@ -1,4 +1,4 @@
-# administracao
+# Administração
 
 Para adicionar, editar e remover postagens que nós criamos usaremos o Django admin. Vamos abrir o arquivo blog/admin.py e substituir seu conteúdo por:
 

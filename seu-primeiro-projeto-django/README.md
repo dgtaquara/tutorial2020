@@ -1,2 +1,2 @@
-# seu-primeiro-projeto-django
+# Seu primeiro projeto Django
 
