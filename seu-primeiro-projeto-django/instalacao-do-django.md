@@ -1,109 +1,72 @@
-# instalacao-do-django
-
-## Ambiente virtual <a id="ambiente-virtual"></a>
-
-Vamos fazer um virtualenv chamado `myvenv`. O formato geral desse comando é:
-
-command-line\(terminal\)
-
-```text
-$ python3 -m venv myvenv
-ou
-$ python -m venv myvenv
-```
-
-## Trabalhando com o virtualenv <a id="trabalhando-com-o-virtualenv"></a>
-
-O comando acima criará um diretório chamado `myvenv` \(ou qualquer que seja o nome que você escolheu\) que contém o nosso ambiente virtual \(basicamente um conjunto de diretórios e arquivos\).
-
-Inicie o seu ambiente virtual executando:
-
-command-line
-
-```text
-$ source myvenv/bin/activate
-```
-
-Lembre-se de substituir `myvenv` pelo nome que você escolheu para o `virtualenv`!
-
-> **Observação:** às vezes `source` pode não estar disponível. Nesses casos, tente fazer isso:
->
-> command-line
->
-> ```text
-> $ . myvenv/bin/activate
-> ```
-
-Você vai saber que tem um `virtualenv` funcionando quando vir que a linha de comando no seu console tem o prefixo `(myvenv)`.
-
-Ao trabalhar em de um ambiente virtual, o comando `python` irá automaticamente se referir à versão correta para que você possa digitar `python` em vez de `python3`.
-
-Pronto, já temos todas as dependências importantes no lugar. Finalmente podemos instalar o Django!
+# Instalação do Django
 
 ## Instalando o Django <a id="instalando-o-django"></a>
 
-Agora que você tem seu `virtualenv` ativo, pode instalar o Django\(Siga corretamente estes passos!!\).
+Nós facilitamos um pouco o processo de instalação do Django. Deixamos tudo pronto pra sair botando a mão na massa! Se você está preparada, acesse este link: [https://gitpod.io/\#https://github.com/dgtaquara/dg-workspace](https://gitpod.io/#https://github.com/dgtaquara/dg-workspace)
 
-Antes de fazer isto, devemos garantir que temos instalada a última versão do `pip`, que é o software que usamos para instalar o Django:
+## Uma breve explicação do que foi feito
 
-command-line
+No arquivo `.gitpod.yml`, como mostrado na figura abaixo, estão as configurações necessárias para rodar o Django. 
 
-```text
-(myvenv) ~$ python -m pip install --upgrade pip
-```
+![](../.gitbook/assets/screen-shot-2020-03-08-at-21.01.50.png)
 
-### Instalando pacotes com requisitos <a id="instalando-pacotes-com-requisitos"></a>
-
-O arquivo "requirements.txt" guarda as dependências que serão instaladas utilizando o `pip install`:
-
-Primeiro, crie um arquivo `requirements.txt` dentro da sua pasta `djangogirls/` usando o adicionar arquivo da plataforma codenvy . Para fazer isso, abra um novo arquivo no codenvy e salve-o como `requirements.txt` na pasta `djangogirls`. O seu diretório vai parecer com isso:
-
-```text
-djangogirls
-└───requirements.txt
-```
-
-E adicione o seguinte texto ao arquivo `djangogirls/requirements.txt`:
-
-djangogirls/requirements.txt
+O comando `pip install -r requirements.txt` instala o Django na versão 2.2.4, esta informação da versão está contida no arquivo `requirements.txt` que possui o seguinte conteúdo:
 
 ```text
 Django~=2.2.4
 ```
 
-Agora, execute:
+Até aqui o Django já foi instalado. 
 
-`pip install -r requirements.txt`
+Agora, o primeiro passo é iniciar um novo projeto Django. Basicamente, isso significa que devemos rodar alguns scripts providos pelo Django que vão criar um esqueleto de projeto Django para nós. O resultado é um conjunto de diretórios e arquivos que nós iremos utilizar e modificar mais tarde.
 
-Assim vamos instalar o Django!!
+O comando `django-admin startproject meusite .` inicia este projeto novo pra nós.
 
-command-line\(importante verificar se após o comando acima, o terminal fica como a tela abaixo\)
-
-```text
-(myvenv) ~$ pip install -r requirements.txt
-Collecting Django~=2.2.4 (from -r requirements.txt (line 1))
-  Downloading Django-2.2.4-py3-none-any.whl (7.1MB)
-Installing collected packages: Django
-Successfully installed Django-2.2.4
-```
-
-## Importante!
-
-No terminal, rode o comando abaixo \(\*\*não esqueça de adicionar o ponto `.` no final!!
-
-command-line\(terminal\)
+`django-admin` é um script que criará os diretórios e arquivos para você. Ele cria uma estrutura de diretório parecida com isso:
 
 ```text
-(myvenv) ~/djangoGirls$ django-admin startproject mysite .
+djangogirls
+├───manage.py
+├───mysite
+│        settings.py
+│        urls.py
+│        wsgi.py
+│        __init__.py
+└───requirements.txt
 ```
 
-> O ponto `.` é crucial por que ele diz para o script instalar o Django no diretório atual \(o ponto `.` é um atalho para referenciar este diretório\).
->
-> **Observação:** Quando digitar o comando acima, lembre-se de digitar apenas a parte que começa em `django-admin`. A parte `(myvenv) ~/djangoGirls$` apresentada aqui é apenas um exemplo do que pode aparecer no seu terminal quando você digitar seus comandos.
+`manage.py` é um script que ajuda com a gestão do site. Com ele, podemos iniciar um servidor de web no nosso computador sem instalar nada, entre outras coisas.
 
-É isto! Você agora \(finalmente\) está pronta para criar uma aplicação Django!
+O arquivo `settings.py` contém a configuração do seu site.
 
-## OBSERVAÇÃO:
+Lembra de quando falamos sobre um carteiro verificando onde entregar uma carta? O arquivo `urls.py` contém uma lista dos padrões usados por `urlresolver`.
 
-Se o arquivo `main.py` ainda esta dentro do diretório\(pasta\) `djangoGirls`, ele pode ser deletado neste momento. Pode clicar com o botão direito em cima do arquivo e selecionar a opção delete
+Vamos ignorar os outros arquivos por enquanto pois não vamos modificá-los. Só precisamos lembrar de não excluí-los por acidentalmente!
+
+### Configuração do Banco de Dados
+
+Existem vários software de banco de dados diferentes que podem armazenar dados para o seu site. Nós vamos usar o padrão do Django, o `sqlite3`.
+
+Isto já está configurado nesta parte do seu arquivo `meusite/settings.py`:
+
+meusite/settings.py
+
+```text
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
+```
+
+O comando `python3 manage.py migrate` cria esse banco de dados pra nós.
+
+### Inicializando o servidor web
+
+O comando `python manage.py runserver 0.0.0.0:8080` que vocês podem ver nesse mesmo arquivo `.gitpod.yml`, é responsável por rodar a nossa aplicação.
+
+Pronta para o colocar a mão na massa? Está na hora de criar conteúdo!
+
+
 
