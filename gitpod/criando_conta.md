@@ -4,15 +4,15 @@ O primeiro passo para utilizarmos o Gitpod é criar uma conta no Github. O Githu
 
 Quando você acessar o link, indicado na seção Gitpod \(link rápido [aqui](https://gitpod.io/#https://github.com/dgtaquara/dg-workspace)\), e não estiver com o acesso no Github, verá a seguinte tela.
 
-![Tela inicial do Gitpod](../.gitbook/assets/image%20%282%29.png)
+![Tela inicial do Gitpod](../.gitbook/assets/image%20%284%29.png)
 
 Vamos clicar no botão `Login with GitHub & Launch Workspace`. Você verá a tela a seguir:
 
-![Tela de acesso ao Github](../.gitbook/assets/image%20%283%29.png)
+![Tela de acesso ao Github](../.gitbook/assets/image%20%285%29.png)
 
 Se tiver uma conta do GitHub, é só colocar seu usuário e senha. Caso contrário, clique em `Create an account` na parte inferior da tela. Ao clicar nessa opção de criar uma nova conta, você será redirecionada para um formulário pedindo nome, email, usuário e senha. Para continuar, preencha este formulário \(não esqueça de utilizar um e-mail válido que você tenha acesso!\)
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/image%20%281%29.png)
 
 ## Escolha o plano FREE
 

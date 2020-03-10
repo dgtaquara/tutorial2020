@@ -1,18 +1,18 @@
-# conhecendo-a-linha-de-comando
+# Conhecendo a linha de comando
 
 Para começar alguns experimentos, precisamos acessar a linha de comando primeiro.
 
-## Codenvy
+## Windows
 
-No Codenvy, a linha de comando já está aberta para você, na parte inferior da sua tela.
+Para acessar a linha de comando, basta digitar Windows + X
 
-![](../.gitbook/assets/captura-de-tela-de-2019-09-11-16-18-10.png)
+![](../.gitbook/assets/image.png)
 
-## Prompt
+## Gitpod
 
-Esta janela preta está à espera de seus comandos.
+No Gitpod, também será possível acessar a linha de comando, e ela é parecida com essa aqui:
 
-![Prompt](../.gitbook/assets/captura-de-tela-de-2019-09-11-16-48-21.png)
+![Prompt gitpod](../.gitbook/assets/image%20%283%29.png)
 
 ### Sumário <a id="sum&#xE1;rio"></a>
 
