@@ -1,7 +1,5 @@
 # Criando uma conta
 
-## Criando uma conta
-
 O primeiro passo para utilizarmos o Gitpod é criar uma conta no Github. O Github é uma plataforma de hospedagem de código, permitindo que programadores de qualquer parte do mundo contribuam para diversos projetos.
 
 Quando você acessar o link, indicado na seção Gitpod \(link rápido [aqui](https://gitpod.io/#https://github.com/dgtaquara/dg-workspace)\), e não estiver com o acesso no Github, verá a seguinte tela.
