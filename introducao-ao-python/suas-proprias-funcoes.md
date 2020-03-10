@@ -1,4 +1,4 @@
-# suas-proprias-funcoes
+# Suas próprias funções
 
 Se lembra de funções como len\(\) que você pode executar no Python? Bem, boas notícias, agora você vai aprender a escrever suas próprias funções!
 

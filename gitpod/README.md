@@ -6,5 +6,5 @@ Para desenvolver o nosso projeto, sem precisar instalar novos programas direto n
 
 Se você quiser saber mais a respeito dela, é possível acessar o seguinte link: [https://www.gitpod.io/](https://www.gitpod.io/)
 
-Para agora, iremos acessar diretamente o nosso projeto utilizando o link: [https://gitpod.io/\#https://github.com/dgtaquara/dg-workspace](https://gitpod.io/#https://github.com/dgtaquara/dg-workspace)
+Para agora, iremos acessar diretamente o nosso projeto utilizando o link: [https:](https://gitpod.io/#https://github.com/dgtaquara/dg-workspace)[//gitpod.io/\#https://github.com/dgtaquara/dg-workspace](https://gitpod.io/#https://github.com/dgtaquara/dg-workspace)
 

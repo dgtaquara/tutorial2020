@@ -1,4 +1,4 @@
-# booleanos
+# Booleanos
 
 Acidentalmente, você aprendeu sobre um novo tipo de objeto em Python. É chamado de **booleano** -- e provavelmente o tipo mais fácil que existe.
 

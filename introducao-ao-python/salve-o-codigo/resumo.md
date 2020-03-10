@@ -1,4 +1,4 @@
-# resumo
+# Resumo
 
 Nos últimos três exercícios você aprendeu:
 
