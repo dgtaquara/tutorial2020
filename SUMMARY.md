@@ -1,11 +1,11 @@
 # Table of contents
 
 * [Sobre](README.md)
+* [Introdução](introducao.md)
 * [Gitpod](gitpod/README.md)
   * [O que é o Gitpod?](gitpod/o_que_e.md)
   * [Criando uma conta](gitpod/criando_conta.md)
   * [Complete o cadastro](gitpod/complete_cadastro.md)
-* [Introdução](introducao.md)
 * [Como funciona a internet?](untitled-1.md)
 * [Introdução a linha de comando](introducao-a-linha-de-comando/README.md)
   * [O que é a linha de comando?](introducao-a-linha-de-comando/o-que-e-a-linha-de-comando.md)
