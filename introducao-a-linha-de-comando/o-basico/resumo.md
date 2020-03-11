@@ -14,7 +14,7 @@ Aqui vai uma lista de alguns comandos úteis:
 
 Estes são apenas alguns dos poucos comandos que você pode executar em sua linha de comando, mas você não vai usar mais nada do que isto hoje.
 
-Se você estiver curioso, [ss64.com](https://github.com/AfroPython/tutorial/tree/6d55ca253a1036297f8107f0eb62852ca1d585d9/linha_de_comando/ss64.com) contém uma referência completa de comandos para todos os sistemas operacionais.
+Se você estiver curioso, o site [ss64.com](https://ss64.com) contém uma referência completa de comandos para todos os sistemas operacionais.
 
 ### Pronta?
 
