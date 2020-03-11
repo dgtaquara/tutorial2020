@@ -1,4 +1,4 @@
-# resumo
+# Resumo
 
 Aqui vai uma lista de alguns comandos úteis:
 
@@ -16,5 +16,7 @@ Estes são apenas alguns dos poucos comandos que você pode executar em sua linh
 
 Se você estiver curioso, [ss64.com](https://github.com/AfroPython/tutorial/tree/6d55ca253a1036297f8107f0eb62852ca1d585d9/linha_de_comando/ss64.com) contém uma referência completa de comandos para todos os sistemas operacionais.
 
-**Vamos começar?**
+### Pronta?
+
+Vamos mergulhar no Python!
 
