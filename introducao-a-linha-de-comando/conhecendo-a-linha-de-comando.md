@@ -12,7 +12,7 @@ Para acessar a linha de comando, basta digitar Windows + X
 
 No Gitpod, também será possível acessar a linha de comando, e ela é parecida com essa aqui:
 
-![Prompt gitpod](../.gitbook/assets/image%20%283%29.png)
+![Prompt gitpod](../.gitbook/assets/image%20%285%29.png)
 
 ### Sumário <a id="sum&#xE1;rio"></a>
 
