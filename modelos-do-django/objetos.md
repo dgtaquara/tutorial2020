@@ -1,4 +1,4 @@
-# objetos
+# Objetos
 
 Existe um conceito na programação chamado `Programação Orientada à Objetos (POO)`. A ideia é que em vez de escrever tudo como uma chata sequência de instruções de programação, podermos modelar as coisas e definir como elas interagem umas com as outras.
 

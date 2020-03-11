@@ -18,5 +18,5 @@ Se você estiver curioso, o site [ss64.com](https://ss64.com) contém uma refer�
 
 ### Pronta?
 
-Vamos mergulhar no Python!
+Vamos conhecer mais sobre editores de código!
 

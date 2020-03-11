@@ -2,7 +2,7 @@
 
 Muitas coisas no código só podem ser executadas se determinadas condições forem atendidas. É por isso que o Python tem alguma coisa chamada declaração **if**.
 
-Substitua o código no arquivo **python\_intro.py** para isto:
+**Substitua** o código no arquivo **python\_intro.py** para isto:
 
 ```text
 if 3 > 2:
@@ -24,7 +24,7 @@ if 3 > 2:
     print('Isso funciona!')
 ```
 
-Você percebeu que identamos \([O que é identação?](https://pt.wikipedia.org/wiki/Indentação)\) a próxima linha com 4 espaços? Precisamos fazer isso para que o Python saiba qual código será executado se o resultado for True. Você pode fazer com 1 espaço, mas quase todos as pessoas que programam em Python fazem com 4 para deixar as coisas arrumadas. Um único tab também vai contar como 4 espaços.
+Você percebeu que identamos \([O que é identação?](https://pt.wikipedia.org/wiki/Indentação)\) a próxima linha com 4 espaços? Precisamos fazer isso para que o Python saiba qual código será executado se o resultado for True. Você pode fazer com 1 espaço, mas quase todos as pessoas que programam em Python fazem com 4 para deixar as coisas arrumadas. Um único `tab` também vai contar como 4 espaços.
 
 Salve-o e execute novamente:
 

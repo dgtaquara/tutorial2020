@@ -1,13 +1,13 @@
 # Laços de repetição
 
-Já é a última parte. Foi rápido, não? :\)
+Já é a última parte. Foi rápido, não?
 
-Como mencionamos, as pessoas que programam são preguiçosas, não gostam de repetir as mesmas coisas. Programação fala sobre como automatizar as coisas, então não queremos cumprimentar cada pessoa pelo seu nome manualmente, certo? É aí onde os laços vem a calhar.
+Como mencionamos, as pessoas que programam costumam ser preguiçosas: não gostam de repetir as mesmas coisas. Programação fala sobre como automatizar as coisas, então não queremos cumprimentar cada pessoa pelo seu nome manualmente, certo? É aí onde os laços vem a calhar.
 
 Ainda se lembra das listas? Vamos fazer uma lista de garotas:
 
 ```text
-garotas = ['Rachel', 'Monica', 'Phoebe', 'Ola', 'You']
+garotas = ['Rachel', 'Monica', 'Phoebe', 'Nome', 'Tu']
 ```
 
 Queremos cumprimentar todas elas pelos seus nomes. Temos a função oi para fazer isso, então vamos usá-la em um loop:
@@ -23,7 +23,7 @@ Aqui está o código completo que será salvo no arquivo:
 ```text
 def oi(nome):
     print('Oi ' + nome + '!')
-garotas = ['Maria', 'Monica', 'Phoebe', 'Ola', 'You']
+garotas = ['Maria', 'Monica', 'Phoebe', 'Nome', 'Tu']
 for nome in garotas:
     oi(nome)
     print('Proxima!')
@@ -39,13 +39,13 @@ Oi Monica!
 Proxima!
 Oi Phoebe!
 Proxima!
-Oi Ola!
+Oi Nome!
 Proxima!
-Oi You!
+Oi Tu!
 Proxima!
 ```
 
-Como você pode ver, tudo o que você vai colocar dentro de uma instrução `for` com espaço será repetido para cada elemento da lista `garotas`.
+Como você pode ver, tudo o que você vai colocar dentro de uma instrução `for` com espaço será repetido para cada elemento da lista **garotas**.
 
 Você também pode usar o `for` em números usando a função `range`:
 
@@ -54,7 +54,7 @@ for i in range(1, 6):
     print(i)
 ```
 
-Que iria imprimir:
+Que irá imprimir:
 
 ```text
 1
