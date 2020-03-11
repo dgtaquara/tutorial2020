@@ -6,7 +6,7 @@ Nós facilitamos um pouco o processo de instalação do Django. Deixamos tudo pr
 
 ## Uma breve explicação do que foi feito
 
-No arquivo `.gitpod.yml`, como mostrado na figura abaixo, estão as configurações necessárias para rodar o Django. 
+No arquivo `.gitpod.yml`, como mostrado na figura abaixo, estão as configurações necessárias para rodar o Django. Você não precisa fazer nada!
 
 ![](../.gitbook/assets/screen-shot-2020-03-08-at-21.01.50.png)
 

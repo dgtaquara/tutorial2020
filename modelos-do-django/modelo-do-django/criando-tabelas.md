@@ -1,6 +1,6 @@
-# criando-tabelas
+# Criando tabelas
 
-O último passo é adicionar nosso novo modelo para nosso banco de dados. Primeiro temos que fazer o Django saber que nós temos algumas mudanças em nosso modelo \(só criamos isso\), digite:
+O último passo é adicionar nosso novo modelo para nosso banco de dados. Primeiro, temos que fazer o Django saber que nós temos algumas mudanças em nosso modelo \(só criamos isso\), digite:
 
 ```text
 python3 manage.py makemigrations blog
