@@ -6,13 +6,17 @@ Para começar alguns experimentos, precisamos acessar a linha de comando primeir
 
 Para acessar a linha de comando, basta digitar Windows + X
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/image%20%281%29.png)
 
 ## Gitpod
 
 No Gitpod, também será possível acessar a linha de comando, e ela é parecida com essa aqui:
 
-![Prompt gitpod](../.gitbook/assets/image%20%285%29.png)
+![Prompt gitpod](../.gitbook/assets/image%20%287%29.png)
+
+Para abrir uma nova aba \(pois a aba atual está com o Django inicializado, depois vamos entrar neste assunto\), basta clicar no ícone superior a direita:
+
+![](../.gitbook/assets/image%20%2810%29.png)
 
 ### Sumário <a id="sum&#xE1;rio"></a>
 
