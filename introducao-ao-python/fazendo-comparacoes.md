@@ -68,5 +68,5 @@ TypeError: unorderable types: int() > str()
 
 Aqui vemos que assim como na expressão, Python não é capaz de comparar um `número (int)` e uma `string (str)`. Em vez disso, ele mostrou um **TypeError** e nos disse que os dois tipos não podem ser comparados juntos.
 
-Mas como o python entende verdadeiro e falso? Vamos para a próxima parte! :\)
+Mas como o Python entende verdadeiro e falso? Vamos para a próxima parte! :\)
 

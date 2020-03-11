@@ -7,7 +7,7 @@ Um dicionário é semelhante a uma lista, mas você pode acessar valores atravé
 {}
 ```
 
-Isso mostra que você acabou de criar um dicionário vazio. Hurra!
+Isso mostra que você acabou de criar um dicionário vazio. Yay!
 
 Agora, tente escrever o seguinte comando \(tente substituir com as suas próprias informações também\):
 
@@ -39,7 +39,7 @@ Traceback (most recent call last):
 KeyError: 'idade'
 ```
 
-Olha, outro erro! Esse é um `KeyError`. Python é bastante prestativo e te diz que a chave `'idade'` não existe nesse dicionário.
+Olha, outro erro! Esse é um **KeyError**. Python é bastante prestativo e te diz que a chave `'idade'` não existe nesse dicionário.
 
 Quando usar um dicionário ou uma lista? Bem, um bom ponto para refletir. Pense em uma solução antes de olhar a resposta na próxima linha.
 
@@ -81,5 +81,5 @@ Além disso você pode mudar o valor associado com uma chave já criada no dicio
 
 Como você pode ver, o valor da chave `'pais'` foi alterado de `'Polonia'` para `'Alemanha'`. :\) Emocionante?
 
-Hurra! Você acabou de aprender outra coisa incrível.
+Yay! Você acabou de aprender outra coisa incrível.
 

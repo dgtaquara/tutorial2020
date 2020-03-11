@@ -28,7 +28,7 @@
   * [A função print](introducao-ao-python/a-funcao-print.md)
   * [Listas](introducao-ao-python/listas.md)
   * [Dicionários](introducao-ao-python/dicionarios.md)
-  * [Resumo até agora](introducao-ao-python/resumo-ate-agora.md)
+  * [Resumo](introducao-ao-python/resumo-ate-agora.md)
   * [Fazendo comparações](introducao-ao-python/fazendo-comparacoes.md)
   * [Booleanos](introducao-ao-python/booleanos.md)
   * [Salve o código!](introducao-ao-python/salve-o-codigo/README.md)

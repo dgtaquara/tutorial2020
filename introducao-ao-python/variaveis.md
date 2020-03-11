@@ -32,7 +32,7 @@ Você pode usá-la também em funções:
 5
 ```
 
-Íncrível não? Claro, variáveis podem ser qualquer coisa, então podem ser números também! Tente isso:
+Incrível não? Claro, variáveis podem ser qualquer coisa, então podem ser números também! Tente isso:
 
 ```text
 >>> a = 4

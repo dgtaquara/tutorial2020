@@ -1,4 +1,4 @@
-# Resumo até agora
+# Resumo
 
 Incrível! Agora você sabe muito sobre programação. Nesta última parte você aprendeu sobre:
 
@@ -7,5 +7,5 @@ Incrível! Agora você sabe muito sobre programação. Nesta última parte você
 * **listas** - listas de objetos armazenados em uma ordem específica
 * **dicionários** - objetos armazenados como pares chave-valor
 
-Empolgado\(a\) para o próximo passo? :\)
+**Empolgada para o próximo passo? :\)**
 
