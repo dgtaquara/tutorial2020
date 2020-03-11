@@ -2,23 +2,17 @@
 
 Para começar alguns experimentos, precisamos acessar a linha de comando primeiro.
 
-## Windows
-
-Para acessar a linha de comando, basta digitar Windows + X
-
-![](../.gitbook/assets/image%20%282%29.png)
-
 ## Gitpod
 
-No Gitpod, também será possível acessar a linha de comando, e ela é parecida com essa aqui:
+Para abrir uma nova aba \(pois a aba atual está com o Django inicializado, depois vamos entrar neste assunto\), basta clicar no ícone quadrado superior a direita, sinalizado com uma linha vermelha:
 
-![Prompt gitpod](../.gitbook/assets/image%20%2815%29.png)
+![Tela do Django inicializado](../.gitbook/assets/image%20%2820%29.png)
 
-Para abrir uma nova aba \(pois a aba atual está com o Django inicializado, depois vamos entrar neste assunto\), basta clicar no ícone superior a direita:
+Pode fechar as outras abas clicando no `X`. Na nova tela, é possível acessar a linha de comando, e ela é parecida com essa aqui:
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![Prompt Gitpod](../.gitbook/assets/image%20%2815%29.png)
 
-### Sumário <a id="sum&#xE1;rio"></a>
+## Sumário
 
 Aqui vai uma lista de alguns comandos úteis:
 

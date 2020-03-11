@@ -2,7 +2,7 @@
 
 > _Este capítulo é inspirado na palestra "Como a Internet funciona" de Jessica McKellar \(_[http://web.mit.edu/jesstess/www/](http://web.mit.edu/jesstess/www/)_\)._
 
-Apostamos que você usa a Internet todos os dias. Mas você sabe realmente o que acontece quando você digita um endereço como [https://djangogirls.org/taquara ](https://djangogirls.org/taquara)em seu navegador e pressiona 'Enter'?
+Apostamos que você usa a Internet todos os dias. Mas você sabe realmente o que acontece quando você digita um endereço como [https://djangogirls.org/taquara ](https://djangogirls.org/taquara)em seu navegador e pressiona `Enter`?
 
 A primeira coisa que você precisa entender é que um site é só um monte de arquivos salvos em um disco rígido. Assim como os filmes, músicas ou fotos que você tem no computador. No entanto, existe uma parte que é exclusiva para sites: essa parte inclui código de computador chamado HTML.
 
@@ -14,7 +14,7 @@ OK, mas você quer saber com o quê a internet se parece, certo? Fizemos um dese
 
 ![](.gitbook/assets/6.png)
 
-Parece uma bagunça, não é? Na verdade é uma rede de máquinas conectadas \(os servidores mencionados acima\). Centenas de milhares de máquinas! Muitos, muitos quilômetros de cabos por todo o mundo! Para ver o quão complicada a internet é, você pode visitar um site [http://submarinecablemap.com/](http://submarinecablemap.com/) que mostra um mapa com os cabos submarinos. Aqui está uma captura de tela do site:
+Parece uma bagunça, não é? Na verdade é uma rede de máquinas conectadas \(os servidores mencionados acima\). Centenas de milhares de máquinas! Muitos, muitos quilômetros de cabos por todo o mundo! Para ver o quão complicada a internet é, você pode visitar o site [http://submarinecablemap.com/](http://submarinecablemap.com/) que mostra um mapa com os cabos submarinos. Aqui está uma captura de tela do site:
 
 ![](.gitbook/assets/7.png)
 
