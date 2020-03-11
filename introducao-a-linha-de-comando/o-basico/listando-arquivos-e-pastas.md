@@ -1,11 +1,11 @@
-# listando-arquivos-e-pastas
+# Listando arquivos e pastas
 
 Digite o seguinte comando:
 
 ```text
 $ ls
-minhapasta
+db.sqlite3  manage.py  minhapasta  requirements.txt
 ```
 
-Ali está a pasta criada! Vamos entrar nela?
+Ali está a pasta criada! \(junto com alguns arquivos importantes nossos, que iremos detalhar mais a frente\). Vamos entrar nela?
 
