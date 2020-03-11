@@ -1,4 +1,4 @@
-# blog-views.py
+# blog/views.py
 
 OK, vamos abrir o arquivo e ver o que tem nele:
 
@@ -8,22 +8,24 @@ from django.shortcuts import render
 # Create your views here.
 ```
 
-Não tem muita coisa. A view mais básica se parece com isto.
+Não tem muita coisa. Agora, a view mais básica deve se parecer com isto:
 
 ```text
+from django.shortcuts import render
+
 def post_list(request):
     return render(request, 'blog/post_list.html', {})
 ```
 
-Como você pode ver, nós criamos um método \(`def`\) chamado `post_list` que aceita o pedido e `retorna` um método `render` será processado \(para montar\) nosso modelo `blog/post_list.html`.
+Como você pode ver, nós criamos um método \(`def`\) chamado `post_list` que aceita o pedido e **retorna** um método `render` será processado \(para montar\) nosso modelo `blog/post_list.html`.
 
-Salve o arquivo, vá para seu endereço e veja o que temos.
+Salve o arquivo, vá para seu endereço \(sem o `/admin`\) e veja o que temos.
 
-![](../.gitbook/assets/template_does_not_exist.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 
 Outro erro! Leia o que está acontecendo agora:
 
-Esta é fácil: _TemplateDoesNotExist_. Vamos corrigir este bug e criar um modelo no próximo capítulo!
+Esta é tranquila: _TemplateDoesNotExist_. Significa que seu arquivo de site não existe \(ainda!\). Vamos corrigir este bug e criar um arquivo de site no próximo capítulo!
 
-> Aprenda mais sobre as views do Django lendo a documentação oficial: [https://docs.djangoproject.com/en/1.8/topics/http/views/](https://docs.djangoproject.com/en/1.8/topics/http/views/)
+> Aprenda mais sobre as views do Django lendo a documentação oficial: [https://docs.djangoproject.com/en/3.0/topics/http/views/](https://docs.djangoproject.com/en/3.0/topics/http/views/)
 

@@ -6,11 +6,11 @@ Existem muitos editores diferentes e em grande parte se resume à preferência p
 
 Para o tutorial, usaremos o editor do Gitpod. Para isso, basta criar um novo arquivo, clicando no link em "File" e depois "New file", digite o nome "main.py" e aperte enter.
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 Pronto! Agora clique duas vezes em cima deste arquivo, digite `print("Hello Django Girls")` e depois clique no botão de play no canto superior direito para ver o resultado na linha de comando abaixo. Falaremos detalhadamente sobre o `print()` mais adiante.
 
-![](../.gitbook/assets/image%20%2827%29.png)
+![](../.gitbook/assets/image%20%2832%29.png)
 
 Também podemos utilizar outros editores de código, como Sublime, VSCode, e etc...
 

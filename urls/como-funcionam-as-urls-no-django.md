@@ -1,6 +1,6 @@
-# como-funcionam-as-urls-no-django
+# Como funcionam as URLs no Django?
 
-Vamos abrir o arquivo `djangoGirls/urls.py`, ele deve ser alterado para ficar assim:
+Vamos abrir o arquivo `meusite/urls.py`. Ele deve parecer com algo semelhante a isso:
 
 ```text
 from django.contrib import admin
@@ -19,5 +19,5 @@ A URL do admin, que você visitou no capítulo anterior já está aqui:
 path('admin/', admin.site.urls),
 ```
 
-Isso significa que para cada URL que começa com `admin/` o Django irá encontrar um correspondente modo de exibição. Neste caso nós estamos incluindo um monte de admin URLs para que isso não fique tudo embalado neste pequeno arquivo é também mais legível e mais limpo.
+Isso significa que para cada URL que começa com `admin/` o Django irá encontrar um correspondente modo de exibição. Neste caso, nós estamos incluindo um monte de admin URLs, para que isso não fique tudo embalado neste pequeno arquivo, assim como mais legível e mais limpo.
 

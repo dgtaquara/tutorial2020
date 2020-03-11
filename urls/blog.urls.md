@@ -9,7 +9,7 @@ from blog import views
 
 Aqui nós estamos apenas importando métodos do Django e todos os nossos views do aplicativo blog \(ainda não temos nenhuma, mas teremos em um minuto!\)
 
-Depois disso nós podemos adicionar nossa primeira URL padrão:
+Depois disso, nós podemos adicionar nossa primeira URL padrão logo abaixo das duas linhas citadas acima:
 
 ```text
 urlpatterns = [
@@ -17,11 +17,13 @@ urlpatterns = [
 ]
 ```
 
-Como você pode ver, estamos agora atribuindo uma `view` chamada `post_list` para a URL ```. Este padrão irá mostrar ao Django que``views.post\_list\` é o lugar certo para ir, se alguém entra na sua página inicial.
+Como você pode ver, estamos agora atribuindo uma `view` chamada `post_list` para a URL `''`. Este padrão irá mostrar ao Django que `views.post_list` é o lugar certo para ir, se alguém entra na sua página inicial.
 
 Tudo certo? Se você tentar rodar o projeto agora, não vai conseguir.
 
+![Tela de erro na aplica&#xE7;&#xE3;o](../.gitbook/assets/image%20%2817%29.png)
+
 Antes disso, precisamos criar o `post_list`. Isto é como chamamos o nosso view! Isso significa que está tudo no lugar, só não criamos nossa view ainda. Não se preocupe, nós chegaremos lá.
 
-> Se você quer saber mais sobre Django URLconfs, veja a documentação oficial: [https://docs.djangoproject.com/en/1.8/topics/http/urls/](https://docs.djangoproject.com/en/1.8/topics/http/urls/)
+> Se você quer saber mais sobre Django URLs, veja a documentação oficial: [https://docs.djangoproject.com/en/3.0/topics/http/urls/](https://docs.djangoproject.com/en/3.0/topics/http/urls/)
 

@@ -15,48 +15,48 @@ Como você pode ver, nós importamos \(registramos, incluímos\) o modelo Post d
 
 OK, hora de olhar para o nosso modelo de Post. Você esteve com o Preview de um site, com uma nave voando, aberto desde que iniciou o projeto, certo? Expanda-o clicando no ícone com uma seta no canto superior direito, sinalizado  a seguir em vermelho:
 
-![Barra de URL do preview do site](.gitbook/assets/image%20%2824%29.png)
+![Barra de URL do preview do site](.gitbook/assets/image%20%2828%29.png)
 
-Vá no navegador e adicione na URL o /admin. No nosso exemplo vai ficar [https://b6sdo2j4.apps.lair.io/admin](https://b6sdo2j4.apps.lair.io/admin) Você verá uma página de login assim:
+Você abrirá seu site em uma nova aba no navegador que está usando. Escreva na URL `/admin`. No nosso exemplo vai ficar algo como: [https://8080-d5ad6e0f-6fc8-4f86-87ca-845af32a8c20.ws-us02.gitpod.io/admin/login/?next=/admin/](https://8080-d5ad6e0f-6fc8-4f86-87ca-845af32a8c20.ws-us02.gitpod.io/admin/login/?next=/admin/) Mas não se assuste! Você verá uma página de login assim:
 
-![P&#xE1;gina de login](https://tutorial.djangogirls.org/pt/django_admin/images/login_page2.png)
+![](.gitbook/assets/image%20%2831%29.png)
 
 Para fazer login, você precisa criar um _superusuário \(superuser\)_ - uma conta de usuário que pode controlar tudo no site. Volte à linha de comando, digite:
 
-`python manage.py createsuperuser`
+```text
+$ python manage.py createsuperuser
+```
 
-e aperte Enter.
+e aperte `Enter`.
 
-Para fazer login você precisa criar um superuser - um usuário que possui controle sobre tudo do site. Volte para o terminal e digite:
-
-`python3 manage.py createsuperuser`
-
-pressione enter
-
-digite seu nome de usuário \(caixa baixa, sem espaço\)
-
-endereço de e-mail e password
-
-Não se preocupe que você não pode ver a senha que você está digitando - é assim que deve ser. Só digitá-la e pressione 'Enter' para continuar. A saída deve parecer com essa \(onde Username e Email devem ser os seus\):
+Será necessário preencher informações de usuário, e-mail e senha. Você pode colocar tudo como 'admin' mesmo, como segue abaixo:
 
 ```text
-…@djangoGirls:/mnt/project$ python3 manage.py createsuperuser
-Username (leave blank to use 'www-data'): admin
+gitpod /workspace/dg-workspace $ python manage.py createsuperuser
+Username (leave blank to use 'gitpod'): admin
 Email address: admin@admin.com
-Password: Afropython123
-Password (again): Afropython123
+Password: 
+Password (again): 
+The password is too similar to the username.
+This password is too short. It must contain at least 8 characters.
+This password is too common.
+Bypass password validation and create user anyway? [y/N]: y
 Superuser created successfully.
 ```
 
+Não se preocupe que você não pode ver a senha que você está digitando - é assim que deve ser. Só digitá-la e pressione `Enter` para continuar. Se aparecer uma linha com uma pergunta e com opções de \[y/N\], digite y e pressione `Enter` novamente.
+
 Volte para a o navegador e faça login com as credenciais de superuser que você escolheu, você deve visualizar o painel de controle do Django admin.
 
-![Django Admin](https://tutorial.djangogirls.org/pt/django_admin/images/django_admin3.png)
+![Tela de usu&#xE1;rio administrador do Django](.gitbook/assets/image%20%2825%29.png)
 
-Vá para as postagens e experimente um pouco com elas. Adicione cinco ou seis postagens. Não se preocupe com o conteúdo - você pode copiar e colar algum texto deste tutorial para o conteúdo para economizar tempo :\).
+Vá para a opção **Posts** e experimente um pouco com elas. Adicione cinco ou seis postagens. Não se preocupe com o conteúdo - você pode copiar e colar algum texto deste tutorial para o conteúdo para economizar tempo :\).
 
-Certifique-se que pelo menos duas ou três postagens \(mas não todas\) tenham a data de publicação definida. Isso será útil depois.
+Certifique-se que pelo menos duas ou três postagens \(mas não todas\) tenham a data de publicação \(_published date_\) definida. Isso será útil depois.
 
-Se você quiser saber mais sobre o Django admin, você deve conferir a documentação do Django: [https://docs.djangoproject.com/en/1.8/ref/contrib/admin/](https://docs.djangoproject.com/en/1.8/ref/contrib/admin/)
+![Tela de adicionar postagens no Django](.gitbook/assets/image%20%286%29.png)
 
-Este é provavelmente um bom momento para tomar um café \(ou chocolate\) ou algo para comer para repor as energias. Você criou seu primeiro modelo de Django - você merece um pouco de descanso!
+Se você quiser saber mais sobre o Django admin, você pode conferir a documentação oficial: [https://docs.djangoproject.com/en/3.0/ref/contrib/admin/](https://docs.djangoproject.com/en/3.0/ref/contrib/admin/)
+
+Este é provavelmente um bom momento para tomar um café \(ou chocolate\) e/ou algo para comer para repor as energias. Você criou seu primeiro modelo de Django - você merece um pouco de descanso!
 
