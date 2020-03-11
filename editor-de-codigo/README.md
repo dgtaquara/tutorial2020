@@ -10,7 +10,7 @@ Para o tutorial, usaremos o editor do Gitpod. Para isso, basta criar um novo arq
 
 Pronto! Agora clique duas vezes em cima deste arquivo, digite `print("Hello Django Girls")` e depois clique no botão de play no canto superior direito para ver o resultado na linha de comando abaixo.
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2815%29.png)
 
 Também podemos utilizar outros editores de código, como Sublime, VSCode, e etc.., para este projeto iremos utilizar a plataforma Gitpod.
 
