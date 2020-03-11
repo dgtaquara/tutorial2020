@@ -21,7 +21,7 @@ Como você pode ver, estamos agora atribuindo uma `view` chamada `post_list` par
 
 Tudo certo? Se você tentar rodar o projeto agora, não vai conseguir.
 
-![Tela de erro na aplica&#xE7;&#xE3;o](../.gitbook/assets/image%20%2818%29.png)
+![Tela de erro na aplica&#xE7;&#xE3;o](../.gitbook/assets/image%20%2820%29.png)
 
 Antes disso, precisamos criar o `post_list`. Isto é como chamamos o nosso view! Isso significa que está tudo no lugar, só não criamos nossa view ainda. Não se preocupe, nós chegaremos lá.
 

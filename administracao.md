@@ -15,11 +15,11 @@ Como você pode ver, nós importamos \(registramos, incluímos\) o modelo Post d
 
 OK, hora de olhar para o nosso modelo de Post. Você esteve com o Preview de um site, com uma nave voando, aberto desde que iniciou o projeto, certo? Expanda-o clicando no ícone com uma seta no canto superior direito, sinalizado  a seguir em vermelho:
 
-![Barra de URL do preview do site](.gitbook/assets/image%20%2832%29.png)
+![Barra de URL do preview do site](.gitbook/assets/image%20%2834%29.png)
 
 Você abrirá seu site em uma nova aba no navegador que está usando. Escreva na URL `/admin`. No nosso exemplo vai ficar algo como: [https://8080-d5ad6e0f-6fc8-4f86-87ca-845af32a8c20.ws-us02.gitpod.io/admin/login/?next=/admin/](https://8080-d5ad6e0f-6fc8-4f86-87ca-845af32a8c20.ws-us02.gitpod.io/admin/login/?next=/admin/) Mas não se assuste! Você verá uma página de login assim:
 
-![](.gitbook/assets/image%20%2836%29.png)
+![](.gitbook/assets/image%20%2838%29.png)
 
 Para fazer login, você precisa criar um _superusuário \(superuser\)_ - uma conta de usuário que pode controlar tudo no site. Volte à linha de comando, digite:
 
@@ -48,7 +48,7 @@ Não se preocupe que você não pode ver a senha que você está digitando - é 
 
 Volte para a o navegador e faça login com as credenciais de superuser que você escolheu, você deve visualizar o painel de controle do Django admin.
 
-![Tela de usu&#xE1;rio administrador do Django](.gitbook/assets/image%20%2828%29.png)
+![Tela de usu&#xE1;rio administrador do Django](.gitbook/assets/image%20%2830%29.png)
 
 Vá para a opção **Posts** e experimente um pouco com elas. Adicione cinco ou seis postagens. Não se preocupe com o conteúdo - você pode copiar e colar algum texto deste tutorial para o conteúdo para economizar tempo :\).
 
