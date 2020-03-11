@@ -18,7 +18,7 @@ Isso vai colocá-la de volta às linhas de comando.
 
 Nós precisamos criar um novo arquivo para escrever o código. Para isso, clique na opção 'File', e depois 'New File' \(ou use o atalho `Alt + N`\):
 
-![Tela de op&#xE7;&#xF5;es em File do Gitpod](../../.gitbook/assets/image%20%2818%29.png)
+![Tela de op&#xE7;&#xF5;es em File do Gitpod](../../.gitbook/assets/image%20%2819%29.png)
 
 Vamos chamar o arquivo de `python_intro.py` e salvá-lo. Podemos nomear o arquivo de tudo o que quisermos, o importante aqui é ter certeza que o arquivo termina com `py`, isto diz nosso computador que é um **arquivo executável de Python** e será possível executá-lo como gostaríamos.
 

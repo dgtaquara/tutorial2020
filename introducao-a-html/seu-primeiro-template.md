@@ -1,8 +1,8 @@
-# seu-primeiro-template
+# Seu primeiro template!
 
-Criar um template significa criar um arquivo de template. Tudo é um arquivo, certo? Provavelmente você já deve ter notado isso.
+Criar um template significa criar **um arquivo** de template. Tudo é um arquivo, certo? Provavelmente você já deve ter notado isso.
 
-Os templates são salvos no diretório `blog/templates/blog`. Então, crie um diretório chamado `templates` dentro do diretório do seu blog. Em seguida, crie outro diretório chamado `blog` dentro da diretório templates:
+Os templates são salvos no diretório `blog/templates/blog`. Então, crie um diretório \(clicando em _New Folder_\) chamado `templates` dentro do diretório do seu blog. Em seguida, crie outro diretório chamado `blog` dentro da diretório `templates`:
 
 ```text
 blog
@@ -16,7 +16,7 @@ E agora crie o arquivo `post_list.html` \(deixe-o em branco por agora\) dentro d
 
 Veja como o nosso site está se parecendo agora:
 
-> Se ocorrer um erro de `TemplateDoesNotExists` tente reiniciar o seu servidor. Abra a Command Pallete pelo ícone no menu lateral, procure por `Restart Server` e aperte Enter.
+> Se ocorrer um erro de `TemplateDoesNotExist` tente reiniciar o seu servidor. Abra a Command Pallete pelo ícone no menu lateral, procure por `Restart Server` e aperte Enter.
 
 ![](../.gitbook/assets/_step1.png)
 

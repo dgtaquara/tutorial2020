@@ -1,4 +1,4 @@
-# head-and-body
+# Head & Body
 
 Cada página HTML também é dividida em dois elementos: **head** \(cabeça\) e **body** \(corpo\).
 

@@ -14,14 +14,14 @@ Não tem muita coisa. Agora, a view mais básica deve se parecer com isto:
 from django.shortcuts import render
 
 def post_list(request):
-    return render(request, 'blog/post_list.html', {})
+    return render(request, '../templates/post_list.html', {})
 ```
 
 Como você pode ver, nós criamos um método \(`def`\) chamado `post_list` que aceita o pedido e **retorna** um método `render` será processado \(para montar\) nosso modelo `blog/post_list.html`.
 
 Salve o arquivo, vá para seu endereço \(sem o `/admin`\) e veja o que temos.
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![Tela de erro do Django](../.gitbook/assets/image%20%2812%29.png)
 
 Outro erro! Leia o que está acontecendo agora:
 
