@@ -7,27 +7,25 @@ Cada página HTML também é dividida em dois elementos: **head** \(cabeça\) e 
 
 Nós usamos a tag `<head>` para dizer ao navegador sobre as configurações da página. Por sua vez, a tag `<body>` diz ao navegador o que há de verdade na página.
 
-Por exemplo, você pode por o elemento título de uma página web dentro da tag `<head>`. Veja:
-
-blog/templates/blog/post\_list.html
+Por exemplo, você pode por o elemento título de uma página web dentro da tag `<head>`. Veja adicionando a seguinte informação no `post_list.html`:
 
 ```markup
 <html>
     <head>
-        <title>Ola's blog</title>
+        <title>Blog da participante</title>
     </head>
     <body>
-        <p>Hi there!</p>
-        <p>It works!</p>
+        <p>Olá!</p>
+        <p>Isso funciona perfeitamente!</p>
     </body>
 </html>
 ```
 
 Salve o arquivo e atualize sua página.
 
-![Figura 11.3](https://tutorial.djangogirls.org/pt/html/images/step4.png)
+![Tela com informa&#xE7;&#xF5;es e t&#xED;tulo da p&#xE1;gina do nosso site](../.gitbook/assets/image%20%2829%29.png)
 
-Viu como o navegador entendeu que "Ola's blog" é o título da página? Ele interpretou `<title>Ola's blog</title>` e colocou o texto na barra de título do seu navegador \(e também será usado para os favoritos e outras coisas mais\).
+Viu como o navegador entendeu que "**Blog da participante**" é o título da página? Ele interpretou `<title>Blog da participante</title>` e colocou o texto na barra de título do seu navegador \(e também será usado para os favoritos e outras coisas mais\).
 
 Provavelmente você já deve ter notado que cada tag de abertura casa com uma _tag de fechamento_, com uma `/`, e que os elementos estão _aninhados_ \(ex.: você não pode fechar uma tag em particular antes que todas as outras tags que estiverem dentro dela já estejam fechadas\).
 

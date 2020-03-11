@@ -1,4 +1,4 @@
-# modelo-de-lista-de-post-de-exibicao
+# Modelo de lista de post de exibição
 
 No capítulo anterior, nós fornecemos ao nosso template uma lista de postagens e a variável posts. Agora vamos exibir em nosso HTML.
 

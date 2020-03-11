@@ -1,22 +1,22 @@
 # ordenando-objetos
 
-Um QuerySet também nos permite ordenar a lista de objetos. Vamos tentar ordenar as postagens pelo campo `created_date`:
+Um QuerySet também nos permite ordenar a lista de objetos. Vamos tentar ordenar as postagens pelo campo `created_date`, ou seja, pela data de criação de cada postagem.
 
 ```text
->>> Post.objects.order_by('created_date')
-<QuerySet [<Post: Exemplo de título>, <Post: Post número 2>, <Post: Meu 3º post!>, <Post: 4º título de post>]>
+In [17]: Post.objects.order_by('created_date')                                    
+Out[17]: <QuerySet [<Post: Postagem 1>, <Post: Postagem 2>, <Post: Título de exemplo>]>
 ```
 
-Você também pode inverter a ordem adicionando - no início:
+Você também pode inverter a ordem adicionando - antes de `created_date`, assim, ordenará do último post até o primeiro.
 
 ```text
->>> Post.objects.order_by('-created_date')
-<QuerySet [<Post: 4º título de post>, <Post: Meu 3º post!>, <Post: Post número 2>, <Post: Exemplo de título>]>
+In [18]: Post.objects.order_by('-created_date')                                   
+Out[18]: <QuerySet [<Post: Título de exemplo>, <Post: Postagem 2>, <Post: Postagem 1>]>
 ```
 
 Legal! Você já está pronto\(a\) para a próxima parte! Para fechar o terminal digite:
 
 ```text
->>> exit()
+In [19]: exit()
 ```
 

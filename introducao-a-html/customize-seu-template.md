@@ -46,7 +46,7 @@ Nós criamos três seções `div` aqui.
 
 Isso nos dá o seguinte efeito:
 
-![Figura 11.4](https://tutorial.djangogirls.org/pt/html/images/step6.png)
+![Tela com t&#xED;tulos, datas e posts no nosso site](../.gitbook/assets/image%20%2835%29.png)
 
 Uhuu! Mas, até agora, nosso template mostra exatamente **sempre a mesma informação** - sendo que, anteriormente, nós falávamos sobre templates como uma maneira para exibir informações **diferentes** em um **mesmo formato**.
 
