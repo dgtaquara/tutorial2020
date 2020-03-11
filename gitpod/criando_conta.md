@@ -4,11 +4,11 @@ O primeiro passo para utilizarmos o Gitpod é criar uma conta no GitHub. O GitHu
 
 Quando você acessar o link, indicado na seção Gitpod \(link rápido [aqui](https://gitpod.io/#https://github.com/dgtaquara/dg-workspace)\), e não estiver com o acesso no GitHub, verá a seguinte tela.
 
-![Tela inicial do Gitpod](../.gitbook/assets/image%20%2813%29.png)
+![Tela inicial do Gitpod](../.gitbook/assets/image%20%2814%29.png)
 
 Vamos clicar no botão `Login with GitHub & Launch Workspace`. Você verá a tela a seguir:
 
-![Tela de acesso ao Github](../.gitbook/assets/image%20%2816%29.png)
+![Tela de acesso ao Github](../.gitbook/assets/image%20%2817%29.png)
 
 Se tiver uma conta do GitHub, é só colocar seu usuário e senha. Caso contrário, clique em `Create an account` na parte inferior da tela. Ao clicar nessa opção de criar uma nova conta, você será redirecionada para um formulário pedindo nome, e-mail, usuário e senha \(mínimo 15 caracteres OU no mínimo 8 caracteres incluindo um número e uma letra minúscula\). Para continuar, preencha o formulário \(não esqueça de utilizar um e-mail válido e que você tenha acesso!\)
 
@@ -30,5 +30,7 @@ Ao acessar o e-mail enviado, clique no botão `Verify email address`
 
 ## Conta validada
 
-Se loga aê e toca ficha :D
+Ao acessar o link novamente, indicado na seção Gitpod \(link rápido [aqui](https://gitpod.io/#https://github.com/dgtaquara/dg-workspace)\), aparecerá uma tela para autorizar a ferramenta GitPod na sua nova conta no GitHub. Clique no botão verde `Authorize gitpod-io`
+
+![Tela de autoriza&#xE7;&#xE3;o da ferramenta no GitHub](../.gitbook/assets/image%20%2812%29.png)
 

@@ -16,7 +16,7 @@ No Gitpod, também será possível acessar a linha de comando, e ela é parecida
 
 Para abrir uma nova aba \(pois a aba atual está com o Django inicializado, depois vamos entrar neste assunto\), basta clicar no ícone superior a direita:
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2815%29.png)
 
 ### Sumário <a id="sum&#xE1;rio"></a>
 
