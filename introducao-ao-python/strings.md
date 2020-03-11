@@ -3,13 +3,13 @@
 Que tal o seu nome? Digite seu primeiro nome entre aspas, desse jeito:
 
 ```text
->>> "Ola"
-'Ola'
+>>> "Nome"
+'Nome'
 ```
 
-Você acabou de criar sua primeira string! String é um sequência de caracteres que podem ser processada pelo computador. A string sempre precisa iniciar e terminar com o mesmo caractere. Este pode ser aspas duplas\("\) ou simples\('\) - elas dizem ao Python que o que está dentro delas é uma string.
+Você acabou de criar sua primeira string! String é um sequência de caracteres que podem ser processada pelo computador. A string sempre precisa iniciar e terminar com o mesmo caractere. Este pode ser aspas duplas \(`"`\) ou simples \(`'`\) - elas dizem ao Python que o que está dentro delas é uma string.
 
-Strings podem ser juntadas. Tente isto:
+Strings podem ser unificadas. Tente isto:
 
 ```text
 >>> "Oi " + "Ola"
@@ -30,7 +30,7 @@ Se você precisa colocar uma apóstrofe dentro de sua string, existem duas manei
 "Foi a gota d'água"
 ```
 
-ou escapando apóstrofo com uma barra invertida \( \):
+ou escapando apóstrofo com uma barra invertida \(`\`\):
 
 ```text
 >>> 'Foi a gota d\'água'
@@ -40,20 +40,22 @@ ou escapando apóstrofo com uma barra invertida \( \):
 Legal, hein? Para ver seu nome em letras maiúsculas, basta digitar:
 
 ```text
->>> "Ola".upper()
-'OLA'
+>>> "Nome".upper()
+'NOME'
 ```
 
-Você acabou de usar a **função** `upper` na sua string! Uma função \(como upper\(\)\) é um conjunto de instruções que o Python realiza em um determinado objeto \("Ola"\), sempre que você chamar por ele.
+Você acabou de usar a **função** `upper` na sua string! Uma função \(como upper\(\)\) é um conjunto de instruções que o Python realiza em um determinado objeto \(`"Nome"`\), sempre que você chamar por ele.
 
 Se você quer saber o número de letras do seu nome, existe uma função para isso também!
 
 ```text
->>> len("Ola")
-3
+>>> len("Nome")
+4
 ```
 
-Se perguntando porque algumas vezes você chama funções com um `.` no fim de uma string \(como `"Ola".upper()`\) e algumas vezes você primeiro chama a função colocando a string nos parênteses? Bem, em alguns casos, funções pertencem a objetos, como `upper()`, que só pode ser utilizada em strings. Nesse caso, nós chamamos a função de **método**. Outras vezes, funções não pertencem a nada específico e podem ser usadas em diferentes tipos de objetos, assim como `len()`. É por isso que nós estamos fornecendo `"Ola"` como um parâmetro para a função `len`.
+Se você estiver se perguntando: porque algumas vezes você chama funções com um `.` no fim de uma string \(como `"Nome".upper()`\) e, outras vezes, você primeiro chama a função colocando a string nos parênteses? 
+
+Bem, em alguns casos, funções pertencem a objetos, como `upper()`, que só pode ser utilizada em strings. Nesse caso, nós chamamos a função de **método**. Outras vezes, funções não pertencem a nada específico e podem ser usadas em diferentes tipos de objetos, assim como `len()`. É por isso que nós estamos fornecendo `"Nome"` como um parâmetro para a função `len`.
 
 ## Resumo
 
@@ -64,5 +66,5 @@ OK, chega de strings. Até agora você aprendeu sobre:
 * **operadores** - como + e \*, combinam valores para produzir um novo valor
 * **funções** - como upper\(\) e len\(\), executam ações nos objetos.
 
-Isso é o básico sobre todas as linguagens de programação que você aprende. Pronto\(a\) para algo mais difícil? Apostamos que sim!
+Isso é o básico sobre todas as linguagens de programação que você aprende. Pronta para algo mais difícil? Apostamos que sim!
 
