@@ -23,7 +23,7 @@ Por exemplo, você pode por o elemento título de uma página web dentro da tag 
 
 Salve o arquivo e atualize sua página.
 
-![Tela com informa&#xE7;&#xF5;es e t&#xED;tulo da p&#xE1;gina do nosso site](../.gitbook/assets/image%20%2831%29.png)
+![Tela com informa&#xE7;&#xF5;es e t&#xED;tulo da p&#xE1;gina do nosso site](../.gitbook/assets/image%20%2832%29.png)
 
 Viu como o navegador entendeu que "**Blog da participante**" é o título da página? Ele interpretou `<title>Blog da participante</title>` e colocou o texto na barra de título do seu navegador \(e também será usado para os favoritos e outras coisas mais\).
 

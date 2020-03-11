@@ -46,7 +46,7 @@ Nós criamos três seções `div` aqui.
 
 Isso nos dá o seguinte efeito:
 
-![Tela com t&#xED;tulos, datas e posts no nosso site](../.gitbook/assets/image%20%2837%29.png)
+![Tela com t&#xED;tulos, datas e posts no nosso site](../.gitbook/assets/image%20%2838%29.png)
 
 Uhuu! Mas, até agora, nosso template mostra exatamente **sempre a mesma informação** - sendo que, anteriormente, nós falávamos sobre templates como uma maneira para exibir informações **diferentes** em um **mesmo formato**.
 

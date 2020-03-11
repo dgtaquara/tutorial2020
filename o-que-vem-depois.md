@@ -8,7 +8,7 @@ Faça uma pausa e relaxe. Você acabou de fazer algo realmente grande.
 
 Depois disso:
 
-* Siga o Django Girls Porto Alegre no [Facebook](https://pt-br.facebook.com/djangogirlspoa/) e acompanhe o grupo [PyLadies](https://pt-br.facebook.com/PoaPyladies/) para ficar atualizado\(a\) e terminar o tutorial! :\)
+* Siga o Django Girls Taquara no [Facebook](https://www.facebook.com/dgtaquara/) e [Instagram](https://www.instagram.com/dgtaquara/) e acompanhe o grupo [PyLadies](https://pt-br.facebook.com/PoaPyladies/) para ficar atualizada e terminar o tutorial! :\)
 
 ## Você pode recomendar outras fontes?
 

@@ -21,7 +21,7 @@ Como você pode ver, nós criamos um método \(`def`\) chamado `post_list` que a
 
 Salve o arquivo, vá para seu endereço \(sem o `/admin`\) e veja o que temos.
 
-![Tela de erro do Django](../.gitbook/assets/image%20%2813%29.png)
+![Tela de erro do Django](../.gitbook/assets/image%20%2814%29.png)
 
 Outro erro! Leia o que está acontecendo agora:
 

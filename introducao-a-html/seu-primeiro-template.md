@@ -15,7 +15,7 @@ Veja como o nosso site está se parecendo agora:
 
 > Se ocorrer um erro de `TemplateDoesNotExist`, tente atualizar a página mais de uma vez ou clicar no ícone ao lado da URL do Preview do Django, no Gitpod. Caso continue sem funcionar, chame uma treinadora mais próxima.
 
-![Tela em branco do nosso site](../.gitbook/assets/image%20%2826%29.png)
+![Tela em branco do nosso site](../.gitbook/assets/image%20%2827%29.png)
 
 Acabaram-se os erros! Parabéns :\) Entretanto, nosso site não mostra nada a não ser uma página em branco. Isso porque o nosso template está vazio. Então precisamos consertar isso. Adicione a seguinte linha dentro do `post_list.html`
 
@@ -28,7 +28,7 @@ Acabaram-se os erros! Parabéns :\) Entretanto, nosso site não mostra nada a n�
 
 Como nosso site se parece agora? Entre no site para descobrir.
 
-![Tela com informa&#xE7;&#xF5;es no nosso site](../.gitbook/assets/image%20%2823%29.png)
+![Tela com informa&#xE7;&#xF5;es no nosso site](../.gitbook/assets/image%20%2824%29.png)
 
 Funcionou! Bom trabalho :D
 

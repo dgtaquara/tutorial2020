@@ -12,7 +12,7 @@ Tente fazer isso no seu template `blog/templates/post_list.html`
 
 Substituia o segundo e o terceiro par de tags `<div></div>` pela linha `{{ posts }}`, salve o arquivo e atualize a página para ver os resultados:
 
-![Tela de informa&#xE7;&#xF5;es a respeito dos nossos posts](../.gitbook/assets/image%20%289%29.png)
+![Tela de informa&#xE7;&#xF5;es a respeito dos nossos posts](../.gitbook/assets/image%20%2810%29.png)
 
 Você pode ver, tudo que temos é algo parecido com:
 
@@ -28,7 +28,7 @@ Isto significa que o Django a entende como uma lista de objetos. Lembre-se de **
 
 Tente fazer isso no seu template.
 
-![Tela de informa&#xE7;&#xF5;es a respeito dos nossos posts](../.gitbook/assets/image%20%2814%29.png)
+![Tela de informa&#xE7;&#xF5;es a respeito dos nossos posts](../.gitbook/assets/image%20%2815%29.png)
 
 Funciona! Mas nós queremos que eles sejam exibidos como os posts estáticos, como os que criamos anteriormente no capítulo de **Introdução a HTML**. Nós podemos misturar HTML com tags de template. O conteúdo da `tag body` ficará assim:
 
@@ -52,9 +52,11 @@ Tudo que você põe entre o primeiro `{% %}` será repetido para cada objeto na 
 
 Você notou que dessa vez nós usamos uma notação um pouco diferente `{{ post.title }}` ou `{{ post.text }}`? Nós estamos acessando os dados em cada um dos campos que definimos no model do Post. Além disso, `|linebreaksbr` está passando o texto do post por um filtro, convertendo quebras de linha em parágrafos.
 
+![Tela do in&#xED;cio de um blog no nosso site](../.gitbook/assets/image%20%286%29.png)
+
 Parabéns! Agora vá em frente e tente adicionar um novo post em seu Django admin \(Lembre-se de adicionar `published_date`!\), em seguida, atualize a página para ver se o post aparece por lá.
 
 Funciona como mágica? Estamos orgulhosos! Afaste-se do seu computador um pouco, você ganhou uma pausa. :\)
 
-![Figura 13.4](https://tutorial.djangogirls.org/pt/django_templates/images/donut.png)
+![](https://tutorial.djangogirls.org/pt/django_templates/images/donut.png)
 
