@@ -17,7 +17,7 @@ $ python3 manage.py startapp blog
 
 Você vai notar que um novo diretório blog é criado e que ele agora contém um número de arquivos. Nossos diretórios e arquivos no nosso projeto devem se parecer com este:
 
-![Menu lateral de arquivos do Gitpod](../../.gitbook/assets/image%20%284%29.png)
+![Menu lateral de arquivos do Gitpod](../../.gitbook/assets/image%20%285%29.png)
 
 Depois de criar um aplicativo também precisamos dizer ao Django que deve usá-lo. Fazemos isso no arquivo `meusite/settings.py`.
 

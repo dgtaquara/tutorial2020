@@ -1,6 +1,6 @@
 # Administração
 
-Para adicionar, editar e remover postagens que nós criamos usaremos o Django admin. Vamos abrir o arquivo blog/admin.py e substituir seu conteúdo por:
+Para adicionar, editar e remover postagens que nós criamos usaremos o Django admin. Vamos abrir o arquivo `blog/admin.py` e substituir seu conteúdo por:
 
 ```text
 from django.contrib import admin
@@ -9,11 +9,15 @@ from .models import Post
 admin.site.register(Post)
 ```
 
-Após alterar, salve o arquivo \(“Save file”\)!
+Após alterar, salve o arquivo.
 
-Como você pode ver, nós importamos \(incluímos\) o modelo Post definido no capítulo anterior. Para tornar nosso modelo visível na página de administração, nós precisamos registrá-lo com: `admin.site.register(Post)`.
+Como você pode ver, nós importamos \(registramos, incluímos\) o modelo Post definido no capítulo anterior. Para tornar nosso modelo visível na página de administração, nós o registramos com: `admin.site.register(Post)`.
 
-OK, hora de olhar para o nosso modelo de Post. Lembre-se de acessar o ícone na lateral esquerda da tela de novo. Vá no navegador e adicione na URL o /admin. No nosso exemplo vai ficar [https://b6sdo2j4.apps.lair.io/admin](https://b6sdo2j4.apps.lair.io/admin) Você verá uma página de login assim:
+OK, hora de olhar para o nosso modelo de Post. Você esteve com o Preview de um site, com uma nave voando, aberto desde que iniciou o projeto, certo? Expanda-o clicando no ícone com uma seta no canto superior direito, sinalizado  a seguir em vermelho:
+
+![Barra de URL do preview do site](.gitbook/assets/image%20%2824%29.png)
+
+Vá no navegador e adicione na URL o /admin. No nosso exemplo vai ficar [https://b6sdo2j4.apps.lair.io/admin](https://b6sdo2j4.apps.lair.io/admin) Você verá uma página de login assim:
 
 ![P&#xE1;gina de login](https://tutorial.djangogirls.org/pt/django_admin/images/login_page2.png)
 

@@ -9,10 +9,10 @@ python3 manage.py makemigrations blog
 Algo parecido com isto deve aparecer para você:
 
 ```text
-…@djangoGirls:/mnt/project$ python3 manage.py makemigrations blog
+gitpod /workspace/dg-workspace $ python3 manage.py makemigrations blog
 Migrations for 'blog':
-  0001_initial.py:
-  - Create model Post
+  blog/migrations/0001_initial.py
+    - Create model Post
 ```
 
 Django prepara um arquivo de migração que temos de aplicar agora para nosso banco de dados. Digite:
@@ -24,7 +24,7 @@ python3 manage.py migrate blog
 A saída deve ser:
 
 ```text
-…@djangoGirls:/mnt/project$ python3 manage.py migrate blog
+gitpod /workspace/dg-workspace $ python3 manage.py migrate blog
 Operations to perform:
   Apply all migrations: blog
 Running migrations:

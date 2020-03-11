@@ -44,9 +44,9 @@ Agora podemos definir as propriedades que discutimos: `titulo`, `texto`, `data_c
 * `models.DateTimeField`: este é uma data e hora
 * `models.ForeignKey`: este é um link para outro modelo
 
-Para explicar cada pedaço do código precisaríamos de muito tempo, caso você esteja curiosa\(o\) para saber mais sobre campos do Model e como definir coisas além destas descritas acima, você pode olhar a documentação do Django aqui: [https://docs.djangoproject.com/en/1.8/ref/models/fields/\#field-types](https://docs.djangoproject.com/en/1.8/ref/models/fields/#field-types).
+Para explicar cada pedaço do código precisaríamos de muito tempo. Caso você esteja curiosa para saber mais sobre campos do Model e como definir coisas além destas descritas acima, você pode olhar a documentação do Django aqui \(em inglês\): [https://docs.djangoproject.com/en/3.0/ref/models/fields/\#field-types](https://docs.djangoproject.com/en/3.0/ref/models/fields/#field-types).
 
-Voltando ao código... Que tal `def publish(self):`? É exatamente o nosso método de publish que falávamos antes.
+Voltando ao código... Que tal `def publish(self):`? É exatamente o nosso método de publicar que falávamos antes.
 
 * `def`: significa que se trata de um função/método
 * `publish`: é o nome do método
@@ -55,5 +55,5 @@ Você pode alterar, se quiser. A regra é que usamos letras minúsculas e sublin
 
 Métodos muitas vezes retornam algo, para isso usamos `return`. Um exemplo é método `__str__`. Nesse cenário, quando chamamos `__str__()` teremos um texto \(**string**\), com um título do Post.
 
-Se algo ainda não está claro sobre modelos, sinta-se livre para pedir ajuda a sua treinadora ou treinador! Sabemos que é muito complicado, especialmente quando você aprender o que são objetos e funções ao mesmo tempo. Mas espero que está parte pareça menos mágica para você agora!
+Se algo ainda não está claro sobre modelos, sinta-se livre para pedir ajuda a sua treinadora! Sabemos que é muito complicado, especialmente quando você aprender o que são objetos e funções ao mesmo tempo. Mas espero que está parte pareça menos mágica para você agora!
 
