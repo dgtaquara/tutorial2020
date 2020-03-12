@@ -77,13 +77,11 @@ Agora, seu arquivo deve ficar assim:
 
 OK, salve o arquivo e atualize o site!
 
-> Dica: se nada acontecer, tente reinicar o servidor. Abra a Command Pallete pelo ícone no menu lateral, procure por `Restart Server` e aperte Enter.
+> Dica: se nada acontecer, tente atualizar a página mais de uma vez ou clicar no ícone ao lado da URL do Preview do Django, no Gitpod. Caso continue sem funcionar, chame uma treinadora mais próxima.
 
 ![Figura 14.2](https://tutorial.djangogirls.org/pt/css/images/color2.png)
 
-Bom trabalho! Talvez a gente também queira dar um pouco de ar ao nosso site e aumentar a margem do lado esquerdo? Vamos tentar!
-
-blog/static/css/blog.css
+Bom trabalho! Talvez a gente também queira dar um pouco de ar ao nosso site e aumentar a margem do lado esquerdo? Vamos tentar! Modifique o arquivo de CSS localizado em `blog/static/css/`
 
 ```css
 body {
@@ -91,25 +89,19 @@ body {
 }
 ```
 
-Adicione isto ao seu arquivo CSS, salve e veja como ele funciona!
+Salve e veja como ele funciona!
 
 ![Figura 14.3](https://tutorial.djangogirls.org/pt/css/images/margin2.png)
 
-Talvez a gente possa customizar a fonte no nosso cabeçalho? Cole na seção `<head>` do arquivo `blog/templates/blog/post_list.html` o seguinte:
-
-blog/templates/blog/post\_list.html
+Talvez a gente possa customizar a fonte no nosso cabeçalho? Cole na seção `<head>` do arquivo `blog/templates/post_list.html` o seguinte:
 
 ```markup
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 ```
 
-Como antes, confira a ordem e coloque antes do link para `blog/static/css/blog.css`. Essa linha irá importar uma fonte chamada _Roboto_ do Google Fonts \([https://www.google.com/fonts](https://www.google.com/fonts)\).
+Como antes, confira a ordem e coloque antes do link para `blog/static/css/blog.css`. Essa linha irá importar uma fonte chamada _Roboto_ do Google Fonts \([https://fonts.google.com](https://fonts.google.com)\).
 
-Encontre o bloco com a declaração `h1 a` \(o código entre chaves `{` and `}`\) dentro do arquivo CSS `blog/static/css/blog.css`. Agora adicione a linha `font-family: 'Roboto';` entre as chaves, e atualize a página:
-
-Agora adicione a linha `font-family: 'Roboto';` no CSS do arquivo `static/css/blog.css` dentro do bloco de declaração `h1 a` \(o código entre as chaves `{` e `}`\) e atualize a página:
-
-blog/static/css/blog.css
+Adicione a linha `font-family: 'Roboto';` no CSS do arquivo `static/css/blog.css` dentro do bloco de declaração `h1 a` \(o código entre as chaves `{` e `}`\) e atualize a página:
 
 ```css
 h1 a {
@@ -122,11 +114,9 @@ h1 a {
 
 Incrível!
 
-Como mencionado acima, CSS usa o conceito de classes, que basicamente permite que você nomeie parte do código HTML e aplique estilos apenas à esta parte, sem afetar as outras. É super útil se você tiver duas `divs`, mas eles estão fazendo algo muito diferente \(como o seu cabeçalho e seu post\). Uma classe pode ajudar você a fazer com que eles tenham um visual diferente.
+Como mencionado acima, o CSS usa o conceito de classes, que basicamente permite que você nomeie parte do código HTML e aplique estilos apenas à esta parte, sem afetar as outras. É super útil se você tiver duas `divs`, mas eles estão fazendo algo muito diferente \(como o seu cabeçalho e seu post\). Uma classe pode ajudar você a fazer com que eles tenham um visual diferente.
 
-Vá em frente e o nomeie algumas partes do código HTML. Adicione uma classe chamada de `cabecalho-pagina` para a `div` que contém o cabeçalho, assim:
-
-blog/templates/blog/post\_list.html
+Vá em frente e o nomeie algumas partes do código HTML do seu arquivp `post_list.html`. Adicione uma classe chamada de `cabecalho-pagina` para a `div` que contém o cabeçalho, assim:
 
 ```markup
 <div class="cabecalho-pagina">
@@ -136,8 +126,6 @@ blog/templates/blog/post\_list.html
 
 E agora, adicione uma classe `post` em sua `div` que contém um post de blog.
 
-blog/templates/blog/post\_list.html
-
 ```markup
 <div class="post">
     <p>publicado em: {{ post.published_date }}</p>
@@ -146,9 +134,7 @@ blog/templates/blog/post\_list.html
 </div>
 ```
 
-Agora adicionaremos blocos de declaração para seletores diferentes. Seletores começando com `.` se referem às classes. Existem muitos tutoriais e explicações sobre CSS na Web para ajudar você a entender o código a seguir. Por enquanto, basta copiar e colá-lo em seu arquivo `blog/static/css/blog.css` :
-
-blog/static/css/blog.css
+Agora adicionaremos blocos de declaração para seletores diferentes. Seletores começando com `.` se referem às classes. Existem muitos tutoriais e explicações sobre CSS na Web para ajudar você a entender o código a seguir. Por enquanto, basta copiar e colá-lo em seu arquivo `blog/static/css/blog.css`:
 
 ```css
 .cabecalho-pagina {
@@ -199,9 +185,7 @@ h1, h2, h3, h4 {
 }
 ```
 
-Então envolva o código HTML que exibe as mensagens com declarações de classes. Substitua isto:
-
-blog/templates/blog/post\_list.html
+Então, envolva o código HTML que exibe as mensagens com declarações de classes. Substitua isto:
 
 ```markup
 {% for post in posts %}
@@ -214,8 +198,6 @@ blog/templates/blog/post\_list.html
 ```
 
 no arquivo `blog/templates/blog/post_list.html` por isto:
-
-blog/templates/blog/post\_list.html
 
 ```markup
 <div class="content container">
@@ -239,11 +221,11 @@ Salve esses arquivos e atualize seu site.
 
 ![Figura 14.4](https://tutorial.djangogirls.org/pt/css/images/final.png)
 
-Uhuu! Ficou incrível, né? Olhe para o código que nós acabamos de colar para encontrar os lugares aonde nós adicionamos classes no HTML e as usamos no CSS. Aonde você faria a mudança para que a data ficasse com a cor turquesa ?
+Uhuu! Ficou incrível, né? Olhe para o código que nós acabamos de colar para encontrar os lugares aonde nós adicionamos classes no HTML e as usamos no CSS. Onde você faria uma mudança para que a data ficasse com a cor turquesa?
 
 Não tenha medo de brincar com esse CSS um pouco e tente mudar algumas coisas. Brincar com o CSS pode ajudar você a entender as diferentes coisas que estão sendo feitas. Se você bagunçar tudo, não se preocupe - você sempre pode voltar atrás!
 
-Nós realmente recomendamos que faça esse curso on-line [Curso de](https://www.codecademy.com/learn/learn-css)[ CSS do Code Academy](https://www.codecademy.com/learn/learn-css). Ele pode ajudar você a aprender tudo sobre como tornar seus sites mais bonitos com CSS.
+Nós realmente recomendamos que faça o [Curso de](https://www.codecademy.com/learn/learn-css)[ CSS do Code Academy](https://www.codecademy.com/learn/learn-css). Ele pode ajudar você a aprender tudo sobre como tornar seus sites mais bonitos com CSS.
 
 Pronto para o próximo capítulo?! :\)
 
