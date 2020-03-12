@@ -24,7 +24,7 @@ Você abrirá seu site em uma nova aba no navegador que está usando. Escreva na
 Para fazer login, você precisa criar um _superusuário \(superuser\)_ - uma conta de usuário que pode controlar tudo no site. Volte à linha de comando, digite:
 
 ```text
-$ python manage.py createsuperuser
+python manage.py createsuperuser
 ```
 
 e aperte `Enter`.

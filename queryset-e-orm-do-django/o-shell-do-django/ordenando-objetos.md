@@ -1,4 +1,4 @@
-# ordenando-objetos
+# Ordenando Objetos
 
 Um QuerySet também nos permite ordenar a lista de objetos. Vamos tentar ordenar as postagens pelo campo `created_date`, ou seja, pela data de criação de cada postagem.
 

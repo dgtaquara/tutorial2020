@@ -68,7 +68,7 @@
     * [Criando um objeto](queryset-e-orm-do-django/o-shell-do-django/criando-um-objeto.md)
     * [Adicionando objetos](queryset-e-orm-do-django/o-shell-do-django/adicionando-objetos.md)
     * [Filtrar objetos](queryset-e-orm-do-django/o-shell-do-django/filtrar-objetos.md)
-    * [ordenando-objetos](queryset-e-orm-do-django/o-shell-do-django/ordenando-objetos.md)
+    * [Ordenando Objetos](queryset-e-orm-do-django/o-shell-do-django/ordenando-objetos.md)
 * [Dados dinâmicos no template](dados-dinamicos-no-template/README.md)
   * [Queryset](dados-dinamicos-no-template/queryset.md)
 * [Templates](templates/README.md)

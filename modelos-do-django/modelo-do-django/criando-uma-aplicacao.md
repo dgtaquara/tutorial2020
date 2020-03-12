@@ -12,7 +12,7 @@ $ pwd
 Então, para criar um aplicativo precisamos executar o seguinte comando no console:
 
 ```text
-$ python3 manage.py startapp blog
+python3 manage.py startapp blog
 ```
 
 Você vai notar que um novo diretório blog é criado e que ele agora contém um número de arquivos. Nossos diretórios e arquivos no nosso projeto devem se parecer com este:

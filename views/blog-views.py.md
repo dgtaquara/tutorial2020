@@ -23,6 +23,12 @@ Salve o arquivo, vá para seu endereço \(sem o `/admin`\) e veja o que temos.
 
 ![Tela de erro do Django](../.gitbook/assets/image%20%2814%29.png)
 
+OBS: Caso apareça algo como na imagem abaixo, rode novamente o seu servidor com o seguinte comando: `python3 manage.py runserver 8080`
+
+![](../.gitbook/assets/screenshot-from-2020-03-11-21-23-30.png)
+
+
+
 Outro erro! Leia o que está acontecendo agora:
 
 Esta é tranquila: _TemplateDoesNotExist_. Significa que seu arquivo de site não existe \(ainda!\). Vamos corrigir este bug e criar um arquivo de site no próximo capítulo!
