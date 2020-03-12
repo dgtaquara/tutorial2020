@@ -56,7 +56,7 @@ Certifique-se que pelo menos duas ou três postagens \(mas não todas\) tenham a
 
 ![Tela de adicionar postagens no Django](.gitbook/assets/image%20%287%29.png)
 
-Se você quiser saber mais sobre o Django admin, você pode conferir a documentação oficial: [https://docs.djangoproject.com/en/3.0/ref/contrib/admin/](https://docs.djangoproject.com/en/3.0/ref/contrib/admin/)
+> Se você quiser saber mais sobre o Django admin, veja a documentação oficial: [https://docs.djangoproject.com/en/3.0/ref/contrib/admin/](https://docs.djangoproject.com/en/3.0/ref/contrib/admin/)
 
 Este é provavelmente um bom momento para tomar um café \(ou chocolate\) e/ou algo para comer para repor as energias. Você criou seu primeiro modelo de Django - você merece um pouco de descanso!
 
