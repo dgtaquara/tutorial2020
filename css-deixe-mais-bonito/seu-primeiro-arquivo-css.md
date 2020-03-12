@@ -11,13 +11,11 @@ blog
 
 Hora de escrever CSS! Abra o arquivo `static/css/blog.css` no seu editor de código.
 
-Não vamos nos aprofundar muito em customizar e aprender sobre CSS aqui, porque você pode aprender sozinho\(a\) após esta oficina. Tem uma recomendação de um curso gratuito para aprender mais no final da página.
+Não vamos nos aprofundar muito em customizar e aprender sobre CSS aqui, porque você pode aprender sozinha após a oficina. Tem uma recomendação de um curso gratuito para aprender mais a respeito no final da página.
 
 Mas vamos fazer pelo menos um pouco. Talvez possamos mudar a cor do nosso cabeçalho? Para entender sobre cores, computadores usam códigos especiais. Eles começam com `#` e são seguidos por 6 letras \(A-F\) e números \(0-9\). Por exemplo, o código para azul é `#0000FF`. Você pode encontrar vários exemplos de códigos de cores aqui: [http://www.colorpicker.com/](http://www.colorpicker.com/). Você pode também usar [cores predefinidas](http://www.w3schools.com/colors/colors_names.asp), como `vermelho - red` e `verde - green`.
 
 Em seu arquivo `blog/static/css/blog.css` você deve adicionar o seguinte código:
-
-blog/static/css/blog.css
 
 ```css
 h1 a {
@@ -27,7 +25,7 @@ h1 a {
 
 `h1 a` é um seletor de CSS. Isso significa que nós estamos aplicando nossos estilos para qualquer elemento `a` dentro de um elemento `h1`. Então quando tivermos no código algo como `<h1><a href="">link</a></h1>`, o estilo `h1 a` será aplicado. Neste caso nós estamos dizendo para mudar a cor para `#DA691A`, que é laranja. Claro, você pode colocar a cor que você quiser aqui!
 
-Em um arquivo CSS podemos determinar estilos para elementos no arquivo HTML. A primeira maneira de identificar elementos é pelo nome do elemento. Você deve lembrar dessas tags na seção de HTML. Coisas como `a`, `h1` e `body` são todas exemplos de nomes de elementos. Nós também identificamos elementos pelo atributo `class` ou o atributo `id`. Classe e identificador\(id\) são nomes que você mesmo dá ao elemento. Classes definem grupos de elementos, e ids apontam para elementos específicos. Por exemplo, você poderia identificar a seguinte tag usando a tag `a`, a classe `link_externo`, ou o id `link_wikipedia_do_django`.
+Em um arquivo CSS, podemos determinar estilos para elementos no arquivo HTML. A primeira maneira de identificar elementos é pelo nome do elemento. Você deve lembrar dessas tags na seção de HTML. Coisas como `a`, `h1` e `body` são todas exemplos de nomes de elementos. Nós também identificamos elementos pelo atributo `class` ou o atributo `id`. Classe e identificador \(id\) são nomes que você mesmo dá ao elemento. Classes definem grupos de elementos, e ids apontam para elementos específicos. Por exemplo, você poderia identificar a seguinte tag usando a tag `a`, a classe `link_externo`, ou o id `link_wikipedia_do_django`.
 
 ```markup
 <a href="https://en.wikipedia.org/wiki/Django" class="link_externo" id="link_wikipedia_do_django">
@@ -35,17 +33,14 @@ Em um arquivo CSS podemos determinar estilos para elementos no arquivo HTML. A p
 
 Você pode ler mais sobre [Seletores CSS em w3schools](http://www.w3schools.com/cssref/css_selectors.asp).
 
-Então, precisamos também contar ao nosso template HTML que nós adicionamos um CSS. Abra o arquivo `blog/templates/blog/post_list.html` e adicione essa linha bem no início do mesmo:
-
-blog/templates/blog/post\_list.html
+Então, precisamos também contar ao nosso template HTML que nós adicionamos um CSS. Abra o arquivo `blog/templates/post_list.html` e adicione essa linha bem no início:
 
 ```markup
 {% load staticfiles %}
 ```
 
-Estamos apenas carregando arquivos estáticos aqui :\). Agora, entre as tags `<head>` e `</head>`, depois dos links para os arquivos de CSS do Bootstrap, adicione esta linha:
-
-blog/templates/blog/post\_list.html
+Estamos apenas carregando arquivos estáticos aqui :\)  
+Agora, entre as tags `<head>` e `</head>`, depois dos links para os arquivos de CSS do Bootstrap, adicione esta linha no mesmo arquivo:
 
 ```markup
 <link rel="stylesheet" href="{% static 'css/blog.css' %}">
@@ -55,22 +50,20 @@ O navegador lê os arquivos na ordem que eles são informados, então nós temos
 
 Agora, seu arquivo deve ficar assim:
 
-blog/templates/blog/post\_list.html
-
 ```markup
 {% load staticfiles %}
 <html>
     <head>
-        <title>Blog do AfroPython</title>
+        <title>Django Girls Blog</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     </head>
     <body>
         <div>
-            <h1><a href="/">Blog do AfroPython</a></h1>
+            <h1><a href="/">Django Girls Blog</a></h1>
         </div>
-
+    
         {% for post in posts %}
             <div>
                 <p>publicado em: {{ post.published_date }}</p>
@@ -250,7 +243,7 @@ Uhuu! Ficou incrível, né? Olhe para o código que nós acabamos de colar para 
 
 Não tenha medo de brincar com esse CSS um pouco e tente mudar algumas coisas. Brincar com o CSS pode ajudar você a entender as diferentes coisas que estão sendo feitas. Se você bagunçar tudo, não se preocupe - você sempre pode voltar atrás!
 
-Nós realmente recomendamos que faça esse curso on-line [Curso de HTML & CSS do Code Academy](https://www.codecademy.com/pt-BR/tracks/web). Ele pode ajudar você a aprender tudo sobre como tornar seus sites mais bonitos com CSS.
+Nós realmente recomendamos que faça esse curso on-line [Curso de](https://www.codecademy.com/learn/learn-css)[ CSS do Code Academy](https://www.codecademy.com/learn/learn-css). Ele pode ajudar você a aprender tudo sobre como tornar seus sites mais bonitos com CSS.
 
 Pronto para o próximo capítulo?! :\)
 
