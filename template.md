@@ -1,6 +1,6 @@
 # Template
 
-Precisamos criar um arquivo `post_edit.html` na pasta `blog/templates/blog`. Pra fazer o formulário funcionar precisamos de muitas coisas:
+Precisamos criar um arquivo `post_edit.html` na pasta `blog/templates/`. Pra fazer o formulário funcionar precisamos de muitas coisas:
 
 * Temos que exibir o formulário. Podemos fazer isso com \(por exemplo\) um simplesmente {% raw %}`{{ form.as_p }}`{% endraw %}.
 * A linha acima precisa estar entre as tags HTML form: `<form method="POST">...</form>`
@@ -8,8 +8,6 @@ Precisamos criar um arquivo `post_edit.html` na pasta `blog/templates/blog`. Pra
 * E finalmente, depois de abrir a tag `<form ...>` precisamos adicionar um {% raw %}`{% csrf_token %}`{% endraw %}. Isso é muito importante, pois faz com que nosso formulário seja seguro! O Django vai reclamar se você esquecer de adicionar isso e tentar salvar o formulário.
 
 Beleza, então vamos ver como ficou o HTML `post_edit.html`:
-
-blog/templates/blog/post\_edit.html
 
 ```markup
 {% extends 'blog/base.html' %}

@@ -2,17 +2,13 @@
 
 Agora já sabemos como adicionar um novo formulário. Mas e se quisermos editar um já existente? É muito semelhante ao que fizemos. Vamos criar algumas coisas importantes rapidamente \(se você não entender alguma coisa - você deve perguntar a seu treinador ou veja os capítulos anteriores, já cobrimos todas essas etapas anteriormente\).
 
-Abra `blog/templates/blog/post_detail.html` e adicione a linha:
-
-blog/templates/blog/post\_detail.html
+Abra `blog/templates/post_detail.html` e adicione a linha:
 
 ```markup
 <a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>
 ```
 
 Agora o template \(modelo\) estará parecido com:
-
-blog/templates/blog/post\_detail.html
 
 ```markup
 {% extends 'blog/base.html' %}
@@ -33,17 +29,13 @@ blog/templates/blog/post\_detail.html
 
 Em `blog/urls.py` adicionamos esta linha:
 
-blog/urls.py
-
 ```python
     path(r'^post/(?P<pk>\d+)/edit/$', views.post_edit, name='post_edit'),
 ```
 
-Nós reutilizaremos o modelo `blog/templates/blog/post_edit.html`, então a última coisa que falta é uma _view_.
+Nós reutilizaremos o modelo `blog/templates/post_edit.html`, então a última coisa que falta é uma _view_.
 
 Vamos abrir `blog/views.py` e adicionar no final do arquivo:
-
-blog/views.py
 
 ```python
 def post_edit(request, pk):
@@ -63,15 +55,11 @@ def post_edit(request, pk):
 
 Isso é quase exatamente igual a nossa view de `post_new`, certo? Mas não totalmente. Primeira coisa: passamos um parâmetro extra `pk` de urls . Em seguida: pegamos o modelo `Post` que queremos editar com `get_object_or_404 (Post, pk=pk)` e então, enquanto criamos um formulário, passamos esta postagem como uma `instância`, ambos quando salvamos o formulário...
 
-blog/views.py
-
 ```python
 form = PostForm(request.POST, instance=post)
 ```
 
 …e quando nós acabamos de abrir um formulário com essa postagem para editar:
-
-blog/views.py
 
 ```python
 form = PostForm(instance=post)
@@ -89,5 +77,5 @@ Sinta-se livre para mudar o título ou o texto e salvar as mudanças!
 
 Parabéns! Sua aplicação está ficando cada vez mais completa!
 
-Se você precisar de mais informações sobre formulários do Django você deve ler a documentação: [https://docs.djangoproject.com/en/1.9/topics/forms/](https://docs.djangoproject.com/en/1.9/topics/forms/)
+Se você precisar de mais informações sobre formulários do Django você deve ler a documentação: [https://docs.djangoproject.com/en/3.0/topics/forms/](https://docs.djangoproject.com/en/3.0/topics/forms/)
 
