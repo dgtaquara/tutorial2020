@@ -4,7 +4,7 @@ Precisamos criar um arquivo `post_edit.html` na pasta `blog/templates/`. Pra faz
 
 * Temos que exibir o formulário. Podemos fazer isso com \(por exemplo\) um simplesmente {% raw %}`{{ form.as_p }}`{% endraw %}.
 * A linha acima precisa estar entre as tags HTML form: `<form method="POST">...</form>`
-* Precisamos de um botão `Salvar`. Fazemos isso com um botão HTML: `<button type="submit">Save</button>`
+* Precisamos de um botão **Salvar**. Fazemos isso com um botão HTML: `<button type="submit">Save</button>`
 * E finalmente, depois de abrir a tag `<form ...>` precisamos adicionar um {% raw %}`{% csrf_token %}`{% endraw %}. Isso é muito importante, pois faz com que nosso formulário seja seguro! O Django vai reclamar se você esquecer de adicionar isso e tentar salvar o formulário.
 
 Beleza, então vamos ver como ficou o HTML `post_edit.html`:
@@ -25,9 +25,9 @@ Hora de atualizar! Há! Seu formulário apareceu!
 
 ![Novo formul&#xE1;rio](https://tutorial.djangogirls.org/pt/django_forms/images/new_form2.png)
 
-Mas, espere um minuto! Quando você digita alguma coisa nos campos `title` e `text` e tenta salvar, o que acontece?
+Mas, espere um minuto! Quando você digita alguma coisa nos campos _title_ e _text_ e tenta salvar, o que acontece?
 
-Nada! Estamos novamente na mesma página e nosso texto sumiu... E nenhum post foi adicionado. Então o que deu errado?
+Nada! Estamos novamente na mesma página e nosso texto sumiu... E nenhum post foi adicionado. Então, o que deu errado?
 
 A resposta é: nada. Precisamos trabalhar um pouco mais na nossa _view_.
 

@@ -39,5 +39,5 @@ def post_new(request):
     return render(request, 'blog/post_edit.html', {'form': form})
 ```
 
-Para criar um novo formulário `Post`, nós devemos chamar `PostForm()` e passá-lo para o template. Nós voltaremos para esta _view_, mas por agora, vamos criar rapidamente um template para o formulário.
+Para criar um novo formulário Post, nós devemos chamar `PostForm()` e passá-lo para o template. Nós voltaremos para esta _view_ mas, por agora, vamos criar rapidamente um template para o formulário.
 

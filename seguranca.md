@@ -2,7 +2,7 @@
 
 Ser capaz de criar novas postagens apenas clicando em um link é incrível! Mas agora, qualquer um que visitar nosso site será capaz de criar uma nova postagem no blog, e isso, provavelmente não é algo que você quer. Vamos fazer com que o botão apareça apenas para você e mais ninguém.
 
-Em `blog/templates/blog/base.html`, encontre nossa `div` `cabecalho-pagina` e a tag `<a>` que você colocou lá anteriormente. Deve se parecer com isso:
+Em `blog/templates/base.html`, encontre nossa div cabecalho-pagina e a tag `<a>` que você colocou lá anteriormente. Deve se parecer com isso:
 
 blog/templates/blog/base.html
 

@@ -1,6 +1,6 @@
 # Editando o formulário
 
-Agora já sabemos como adicionar um novo formulário. Mas e se quisermos editar um já existente? É muito semelhante ao que fizemos. Vamos criar algumas coisas importantes rapidamente \(se você não entender alguma coisa - você deve perguntar a seu treinador ou veja os capítulos anteriores, já cobrimos todas essas etapas anteriormente\).
+Agora já sabemos como adicionar um novo formulário. Mas e se quisermos editar um já existente? É muito semelhante ao que fizemos. Vamos criar algumas coisas importantes rapidamente \(se você não entender alguma coisa - você deve perguntar a uma treinadora ou ver os capítulos anteriores, visto que já cobrimos todas essas etapas anteriormente\).
 
 Abra `blog/templates/post_detail.html` e adicione a linha:
 
@@ -30,7 +30,7 @@ Agora o template \(modelo\) estará parecido com:
 Em `blog/urls.py` adicionamos esta linha:
 
 ```python
-    path(r'^post/(?P<pk>\d+)/edit/$', views.post_edit, name='post_edit'),
+  path(r'^post/(?P<pk>\d+)/edit/$', views.post_edit, name='post_edit'),
 ```
 
 Nós reutilizaremos o modelo `blog/templates/post_edit.html`, então a última coisa que falta é uma _view_.
@@ -53,7 +53,7 @@ def post_edit(request, pk):
     return render(request, 'blog/post_edit.html', {'form': form})
 ```
 
-Isso é quase exatamente igual a nossa view de `post_new`, certo? Mas não totalmente. Primeira coisa: passamos um parâmetro extra `pk` de urls . Em seguida: pegamos o modelo `Post` que queremos editar com `get_object_or_404 (Post, pk=pk)` e então, enquanto criamos um formulário, passamos esta postagem como uma `instância`, ambos quando salvamos o formulário...
+Isso é quase exatamente igual a nossa view de `post_new`, certo? Mas não totalmente. Primeira coisa: passamos um parâmetro extra **pk** de urls . Em seguida: pegamos o modelo Post que queremos editar com `get_object_or_404 (Post, pk=pk)` e então, enquanto criamos um formulário, passamos esta postagem como uma **instância**, ambos quando salvamos o formulário...
 
 ```python
 form = PostForm(request.POST, instance=post)
